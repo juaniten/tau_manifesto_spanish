@@ -1,0 +1,320 @@
+htfcss: ptmb8t   font-weight: bold;
+htfcss: ptmri8t font-style: italic;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+htfcss: ptmri8t font-style: italic;
+htfcss: pcrr8t font-weight: bold;
+File: tau-manifesto.html
+File: tau-manifesto.css
+File: tau-manifesto.tmp
+File: tau-manifesto2.html
+File: tau-manifesto3.html
+File: tau-manifesto4.html
+File: tau-manifesto5.html
+File: tau-manifesto.tmp
+File: tau-manifesto.tmp
+File: tau-manifesto.tmp
+File: tau-manifesto.tmp
+File: tau-manifesto.tmp
+File: tau-manifesto.tmp
+File: tau-manifesto6.html
+File: tau-manifesto.tmp
+File: tau-manifesto.tmp
+File: tau-manifesto7.html
+File: tau-manifesto8.html
+File: tau-manifesto.tmp
+File: tau-manifesto9.html
+File: tau-manifesto.tmp
+File: tau-manifesto10.html
+File: tau-manifesto11.html
+File: tau-manifesto12.html
+File: tau-manifesto13.html
+File: tau-manifesto14.html
+File: tau-manifesto15.html
+File: tau-manifesto16.html
+File: tau-manifesto17.html
+File: tau-manifesto.tmp
+File: tau-manifesto18.html
+Css: p.noindent { text-indent: 0em }
+Css: td p.noindent { text-indent: 0em; margin-top:0em; }
+Css: p.nopar { text-indent: 0em; }
+Css: p.indent{ text-indent: 1.5em }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 1px; margin:0px; }
+Css: .tabbing-right {text-align:right;}
+Css: span.TEX {letter-spacing: -0.125em; }
+Css: span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+Css: a span.TEX span.E {text-decoration: none; }
+Css: span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+Css: span.LATEX span.TEX{ position:relative; left: -0.4em; }
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+Css: .abstract p {margin-left:5%; margin-right:5%;}
+Css: div.abstract {width:100%;}
+Css: .figure img.graphics {margin-left:10%;}
+Css: P.fancyvrb {white-space: nowrap; margin:0em;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:100%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+--- needs --- tau-manifesto.idv[2] ==> tau-manifesto0x.png ---
+--- needs --- tau-manifesto.idv[4] ==> tau-manifesto1x.png ---
+File: images/figures/palais-tau.png
+--- needs --- tau-manifesto.idv[6] ==> tau-manifesto2x.png ---
+File: images/figures/google-pi-day.png
+File: images/figures/futurama_math_lecture.png
+--- needs --- tau-manifesto.idv[8] ==> tau-manifesto3x.png ---
+--- needs --- tau-manifesto.idv[10] ==> tau-manifesto4x.png ---
+--- needs --- tau-manifesto.idv[12] ==> tau-manifesto5x.png ---
+--- needs --- tau-manifesto.idv[13] ==> tau-manifesto6x.png ---
+--- needs --- tau-manifesto.idv[15] ==> tau-manifesto7x.png ---
+--- needs --- tau-manifesto.idv[17] ==> tau-manifesto8x.png ---
+--- needs --- tau-manifesto.idv[19] ==> tau-manifesto9x.png ---
+--- needs --- tau-manifesto.idv[21] ==> tau-manifesto10x.png ---
+--- needs --- tau-manifesto.idv[23] ==> tau-manifesto11x.png ---
+--- needs --- tau-manifesto.idv[25] ==> tau-manifesto12x.png ---
+--- needs --- tau-manifesto.idv[26] ==> tau-manifesto13x.png ---
+--- needs --- tau-manifesto.idv[28] ==> tau-manifesto14x.png ---
+--- needs --- tau-manifesto.idv[30] ==> tau-manifesto15x.png ---
+--- needs --- tau-manifesto.idv[32] ==> tau-manifesto16x.png ---
+--- needs --- tau-manifesto.idv[34] ==> tau-manifesto17x.png ---
+--- needs --- tau-manifesto.idv[36] ==> tau-manifesto18x.png ---
+--- needs --- tau-manifesto.idv[38] ==> tau-manifesto19x.png ---
+--- needs --- tau-manifesto.idv[40] ==> tau-manifesto20x.png ---
+--- needs --- tau-manifesto.idv[42] ==> tau-manifesto21x.png ---
+--- needs --- tau-manifesto.idv[44] ==> tau-manifesto22x.png ---
+--- needs --- tau-manifesto.idv[46] ==> tau-manifesto23x.png ---
+--- needs --- tau-manifesto.idv[47] ==> tau-manifesto24x.png ---
+--- needs --- tau-manifesto.idv[49] ==> tau-manifesto25x.png ---
+--- needs --- tau-manifesto.idv[51] ==> tau-manifesto26x.png ---
+--- needs --- tau-manifesto.idv[52] ==> tau-manifesto27x.png ---
+--- needs --- tau-manifesto.idv[53] ==> tau-manifesto28x.png ---
+--- needs --- tau-manifesto.idv[54] ==> tau-manifesto29x.png ---
+--- needs --- tau-manifesto.idv[56] ==> tau-manifesto30x.png ---
+--- needs --- tau-manifesto.idv[57] ==> tau-manifesto31x.png ---
+--- needs --- tau-manifesto.idv[58] ==> tau-manifesto32x.png ---
+--- needs --- tau-manifesto.idv[59] ==> tau-manifesto33x.png ---
+--- needs --- tau-manifesto.idv[60] ==> tau-manifesto34x.png ---
+--- needs --- tau-manifesto.idv[61] ==> tau-manifesto35x.png ---
+--- needs --- tau-manifesto.idv[62] ==> tau-manifesto36x.png ---
+--- needs --- tau-manifesto.idv[63] ==> tau-manifesto37x.png ---
+--- needs --- tau-manifesto.idv[64] ==> tau-manifesto38x.png ---
+--- needs --- tau-manifesto.idv[65] ==> tau-manifesto39x.png ---
+--- needs --- tau-manifesto.idv[66] ==> tau-manifesto40x.png ---
+--- needs --- tau-manifesto.idv[67] ==> tau-manifesto41x.png ---
+--- needs --- tau-manifesto.idv[68] ==> tau-manifesto42x.png ---
+--- needs --- tau-manifesto.idv[69] ==> tau-manifesto43x.png ---
+--- needs --- tau-manifesto.idv[70] ==> tau-manifesto44x.png ---
+--- needs --- tau-manifesto.idv[71] ==> tau-manifesto45x.png ---
+--- needs --- tau-manifesto.idv[73] ==> tau-manifesto46x.png ---
+--- needs --- tau-manifesto.idv[75] ==> tau-manifesto47x.png ---
+--- needs --- tau-manifesto.idv[77] ==> tau-manifesto48x.png ---
+--- needs --- tau-manifesto.idv[79] ==> tau-manifesto49x.png ---
+--- needs --- tau-manifesto.idv[80] ==> tau-manifesto50x.png ---
+--- needs --- tau-manifesto.idv[82] ==> tau-manifesto51x.png ---
+--- needs --- tau-manifesto.idv[83] ==> tau-manifesto52x.png ---
+--- needs --- tau-manifesto.idv[84] ==> tau-manifesto53x.png ---
+--- needs --- tau-manifesto.idv[86] ==> tau-manifesto54x.png ---
+--- needs --- tau-manifesto.idv[87] ==> tau-manifesto55x.png ---
+--- needs --- tau-manifesto.idv[88] ==> tau-manifesto56x.png ---
+--- needs --- tau-manifesto.idv[90] ==> tau-manifesto57x.png ---
+--- needs --- tau-manifesto.idv[92] ==> tau-manifesto58x.png ---
+--- needs --- tau-manifesto.idv[93] ==> tau-manifesto59x.png ---
+--- needs --- tau-manifesto.idv[94] ==> tau-manifesto60x.png ---
+--- needs --- tau-manifesto.idv[95] ==> tau-manifesto61x.png ---
+--- needs --- tau-manifesto.idv[96] ==> tau-manifesto62x.png ---
+--- needs --- tau-manifesto.idv[98] ==> tau-manifesto63x.png ---
+--- needs --- tau-manifesto.idv[99] ==> tau-manifesto64x.png ---
+--- needs --- tau-manifesto.idv[100] ==> tau-manifesto65x.png ---
+--- needs --- tau-manifesto.idv[101] ==> tau-manifesto66x.png ---
+--- needs --- tau-manifesto.idv[103] ==> tau-manifesto67x.png ---
+--- needs --- tau-manifesto.idv[105] ==> tau-manifesto68x.png ---
+--- needs --- tau-manifesto.idv[107] ==> tau-manifesto69x.png ---
+--- needs --- tau-manifesto.idv[109] ==> tau-manifesto70x.png ---
+--- needs --- tau-manifesto.idv[110] ==> tau-manifesto71x.png ---
+--- needs --- tau-manifesto.idv[111] ==> tau-manifesto72x.png ---
+--- needs --- tau-manifesto.idv[112] ==> tau-manifesto73x.png ---
+--- needs --- tau-manifesto.idv[113] ==> tau-manifesto74x.png ---
+--- needs --- tau-manifesto.idv[114] ==> tau-manifesto75x.png ---
+--- needs --- tau-manifesto.idv[116] ==> tau-manifesto76x.png ---
+--- needs --- tau-manifesto.idv[117] ==> tau-manifesto77x.png ---
+--- needs --- tau-manifesto.idv[118] ==> tau-manifesto78x.png ---
+--- needs --- tau-manifesto.idv[120] ==> tau-manifesto79x.png ---
+--- needs --- tau-manifesto.idv[121] ==> tau-manifesto80x.png ---
+--- needs --- tau-manifesto.idv[123] ==> tau-manifesto81x.png ---
+--- needs --- tau-manifesto.idv[124] ==> tau-manifesto82x.png ---
+--- needs --- tau-manifesto.idv[125] ==> tau-manifesto83x.png ---
+--- needs --- tau-manifesto.idv[126] ==> tau-manifesto84x.png ---
+--- needs --- tau-manifesto.idv[127] ==> tau-manifesto85x.png ---
+--- needs --- tau-manifesto.idv[128] ==> tau-manifesto86x.png ---
+--- needs --- tau-manifesto.idv[130] ==> tau-manifesto87x.png ---
+--- needs --- tau-manifesto.idv[131] ==> tau-manifesto88x.png ---
+--- needs --- tau-manifesto.idv[132] ==> tau-manifesto89x.png ---
+--- needs --- tau-manifesto.idv[133] ==> tau-manifesto90x.png ---
+--- needs --- tau-manifesto.idv[135] ==> tau-manifesto91x.png ---
+--- needs --- tau-manifesto.idv[136] ==> tau-manifesto92x.png ---
+--- needs --- tau-manifesto.idv[137] ==> tau-manifesto93x.png ---
+--- needs --- tau-manifesto.idv[138] ==> tau-manifesto94x.png ---
+--- needs --- tau-manifesto.idv[140] ==> tau-manifesto95x.png ---
+--- needs --- tau-manifesto.idv[141] ==> tau-manifesto96x.png ---
+--- needs --- tau-manifesto.idv[142] ==> tau-manifesto97x.png ---
+--- needs --- tau-manifesto.idv[143] ==> tau-manifesto98x.png ---
+--- needs --- tau-manifesto.idv[144] ==> tau-manifesto99x.png ---
+--- needs --- tau-manifesto.idv[146] ==> tau-manifesto100x.png ---
+--- needs --- tau-manifesto.idv[147] ==> tau-manifesto101x.png ---
+--- needs --- tau-manifesto.idv[149] ==> tau-manifesto102x.png ---
+--- needs --- tau-manifesto.idv[151] ==> tau-manifesto103x.png ---
+--- needs --- tau-manifesto.idv[152] ==> tau-manifesto104x.png ---
+--- needs --- tau-manifesto.idv[153] ==> tau-manifesto105x.png ---
+--- needs --- tau-manifesto.idv[154] ==> tau-manifesto106x.png ---
+--- needs --- tau-manifesto.idv[155] ==> tau-manifesto107x.png ---
+--- needs --- tau-manifesto.idv[157] ==> tau-manifesto108x.png ---
+--- needs --- tau-manifesto.idv[158] ==> tau-manifesto109x.png ---
+--- needs --- tau-manifesto.idv[159] ==> tau-manifesto110x.png ---
+--- needs --- tau-manifesto.idv[160] ==> tau-manifesto111x.png ---
+--- needs --- tau-manifesto.idv[162] ==> tau-manifesto112x.png ---
+--- needs --- tau-manifesto.idv[163] ==> tau-manifesto113x.png ---
+--- needs --- tau-manifesto.idv[164] ==> tau-manifesto114x.png ---
+--- needs --- tau-manifesto.idv[165] ==> tau-manifesto115x.png ---
+--- needs --- tau-manifesto.idv[166] ==> tau-manifesto116x.png ---
+--- needs --- tau-manifesto.idv[168] ==> tau-manifesto117x.png ---
+--- needs --- tau-manifesto.idv[169] ==> tau-manifesto118x.png ---
+--- needs --- tau-manifesto.idv[171] ==> tau-manifesto119x.png ---
+--- needs --- tau-manifesto.idv[172] ==> tau-manifesto120x.png ---
+--- needs --- tau-manifesto.idv[174] ==> tau-manifesto121x.png ---
+--- needs --- tau-manifesto.idv[176] ==> tau-manifesto122x.png ---
+--- needs --- tau-manifesto.idv[178] ==> tau-manifesto123x.png ---
+--- needs --- tau-manifesto.idv[180] ==> tau-manifesto124x.png ---
+--- needs --- tau-manifesto.idv[182] ==> tau-manifesto125x.png ---
+--- characters ---
+Font("cmr","10","10","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","10","10","100")
+Font("cmr","12","12","100")
+Font("ptmr8t","","10","120")
+Font("ptmr8t","","10","207")
+Font("ptmr8t","","10","144")
+Font("ptmr8t","","10","109")
+Font("pcrr8t","","10","120")
+Font("ptmri8t","","10","120")
+Font("cmr","8","8","100")
+Font("cmr","6","6","100")
+Font("cmmi","12","12","100")
+Font("cmmi","8","8","100")
+Font("cmmi","6","6","100")
+Font("cmsy","10","10","120")
+Font("cmsy","8","8","100")
+Font("cmsy","6","6","100")
+Font("cmex","10","10","120")
+Font("msbm","10","10","120")
+Font("msbm","10","10","80")
+Font("ptmr8t","","10","100")
+Font("ptmri8t","","10","100")
+Font("ptmb8t","","10","120")
