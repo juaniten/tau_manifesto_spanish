@@ -1,20 +1,20 @@
 %TODO Translate all "Table" and "Figure" of captions .
-%TODO Translation of math elements: lim -> lím. sin -> sen. Olso in graphics.
+%TODO Translation of math elements: lim -> lím. sin -> sen. Also in graphics.
 
 \section{La constante de la circunferencia} % (fold)
 \label{sec:the_circle_constant}
 
-\href{http://tauday.com/tau-manifesto}{\emph{El manifiesto tau}} está dedicado a uno de los números más importantes en matemáticas, quizá \emph{el más} importante: la \emph{constante de la circunferencia}, que relaciona su perímetro con su dimensión lineal. Desde hace miles de años, se ha considerado a la circunferencia como la más perfecta de todas las formas, y esta constante condensa su geometría en un único número. Claramente, la opción tradicional para la constante de la circunferencia ha sido $\pi$---pero, como señala el matemático \href{http://www.math.utah.edu/~palais}{Bob Palais} en su delicioso artículo ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, volumen~23, número~3, 2001, pp.~7--8. Muchos de los alegatos de \emph{El manifiesto tau} están basados en, o inspirados por, ``$\pi$ Is Wrong!''. Está disponible online en \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.} $\pi$ \emph{es un error}. Es hora de hacer justicia.
+\href{http://tauday.com/tau-manifesto}{\emph{El manifiesto tau}} está dedicado a uno de los números más importantes en matemáticas, quizá \emph{el más} importante: la \emph{constante de la circunferencia}, que relaciona su perímetro con su dimensión lineal. Desde hace miles de años se ha considerado a la circunferencia como la más perfecta de todas las formas, y esta constante condensa su geometría en un único número. Evidentemente, la opción tradicional para la constante de la circunferencia ha sido $\pi$ pero, como señala el matemático \href{http://www.math.utah.edu/~palais}{Bob Palais} en su delicioso artículo ``$\pi$ Is Wrong!''\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, volumen~23, número~3, 2001, pp.~7--8. Muchos de los alegatos de \emph{El manifiesto tau} están basados en, o inspirados por, ``$\pi$ Is Wrong!''. Está disponible online en \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.}, $\pi$ \emph{es un error}. Es hora de hacer justicia.
 
   \subsection{Una propuesta poco modesta} % (fold)
   \label{sec:an_immodest_proposal}
 
-Comencemos a reparar el daño desatado por $\pi$ tratando de comprender en primer lugar el famoso número en sí. La definición tradicional para la constante de la circunferencia establece que $\pi$ (pi) es la razón entre el perímetro de una circunferencia y su diámetro:\footnote{El símbolo $\equiv$ significa ``se define como''.}
+Comencemos a reparar el daño desatado por $\pi$ tratando de comprender en primer lugar el famoso número en sí. La definición tradicional para la constante de la circunferencia establece que $\pi$ (pi) es la razón entre el perímetro de una circunferencia y su diámetro\footnote{El símbolo $\equiv$ significa ``se define como''.}:
 \begin{equation}
 \label{eq:pi}
 \pi \equiv \frac{C}{D} = 3.14159265\ldots
 \end{equation}
-El número $\pi$ tiene muchas propiedades notables ---entre otras cosas, es un número \href{https://es.wikipedia.org/wiki/Número_irracional}{\emph{irracional}} y de hecho \href{https://es.wikipedia.org/wiki/Número_trascendente}{\emph{trascendente}}--- y aparece por doquier en fórmulas matemáticas.
+El número $\pi$ tiene muchas propiedades notables (entre otras cosas, es un número \href{https://es.wikipedia.org/wiki/Número_irracional}{\emph{irracional}} y de hecho \href{https://es.wikipedia.org/wiki/Número_trascendente}{\emph{trascendente}}) y aparece por doquier en fórmulas matemáticas.
 
 %TODO Translate image
 \begin{figure}
@@ -22,7 +22,7 @@ El número $\pi$ tiene muchas propiedades notables ---entre otras cosas, es un n
 \caption{Anatomía de una circunferencia.\label{fig:circle}}
 \end{figure}
 
-Es obvio que $\pi$ no es ``un error'' en el sentido de ser factualmente incorrecto; el número $\pi$ está perfectamente bien definido, y posee todas las propiedades que las y los matemáticos habitualmente le atribuyen. Cuando decimos que ``$\pi$ es un error'', queremos decir que \emph{$\pi$ es una elección confusa y poco natural para la constante de la circunferencia}. Particularmente, una circunferencia se define como el lugar geométrico de los puntos de un plano que se encuentran a una distancia fija ---el \emph{radio}--- de un punto dado, el \emph{centro} (Figure~\ref{fig:circle}). Así como hay infinitas formas con diámetro constante (figura~\ref{fig:bicycle_constant_diameters}), solo hay una forma con radio constante, lo cual parece sugerir que una definición más natural para la constante de la circunferencia podría utilizar $r$ en lugar de $D$:
+Es obvio que $\pi$ no es ``un error'' en el sentido de ser factualmente incorrecto; el número $\pi$ está perfectamente bien definido, y posee todas las propiedades que las y los matemáticos habitualmente le atribuyen. Cuando decimos que ``$\pi$ es un error'', queremos decir que \emph{$\pi$ es una elección confusa y poco natural para la constante de la circunferencia}. En concreto, una circunferencia se define como el lugar geométrico de los puntos de un plano que se encuentran a una distancia fija, el \emph{radio}, de un punto dado, el \emph{centro} (Figure~\ref{fig:circle}). Mientras que hay un número infinito de formas con diámetro constante (figura~\ref{fig:bicycle_constant_diameters}), solo hay una forma con radio constante, lo cual parece sugerir que una definición más natural para la constante de la circunferencia podría utilizar $r$ en lugar de $D$:
 \begin{equation}
 \label{eq:circle_constant}
 \mbox{constante de la circunferencia} \equiv \frac{C}{r}.
@@ -54,7 +54,7 @@ A lo largo del resto de este manifiesto, veremos que el \emph{número} $\tau$ es
 \subsection{Un poderoso enemigo} % (fold)
  \label{sec:a_powerful_enemy}
 
-Antes de comenzar a demostrar que $\tau$ es la opción natural para la constante de la circunferencia, reconozcamos antes a quién nos enfrentamos; y es que desde hace cientos de años existe una poderosa conspiración decidida a difundir propaganda pro-$\pi$. Se  \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{escriben} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{libros} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{enteros} para alabar las virtudes de $\pi$ (en serio, ¡\href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{libros}}!). Y la devoción irracional por  $\pi$ se ha extendido hasta los más altos niveles de frikismo; por ejemplo, en el ``día de pi'' de 2010, \href{http://www.google.com/}{Google} \emph{cambió su logo} en honor de $\pi$ (Figure~\ref{fig:google_pi_day.}).
+Antes de comenzar a demostrar que $\tau$ es la opción natural para la constante de la circunferencia, reconozcamos antes a quién nos enfrentamos; y es que desde hace cientos de años existe una poderosa conspiración decidida a difundir propaganda pro-$\pi$. Se  \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{escriben} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{libros} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{enteros} para alabar las virtudes de $\pi$ (en serio, ¡\href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{libros}}!). Y la devoción irracional por  $\pi$ se ha extendido hasta los más altos niveles de frikismo; por ejemplo, en el ``día de pi'' de 2010, \href{http://www.google.com/}{Google} \emph{cambió su logo} en honor a $\pi$ (Figure~\ref{fig:google_pi_day.}).
 
 \begin{figure}
 \begin{center}
@@ -72,10 +72,10 @@ Mientras tanto, hay personas que memorizan docenas, cientos o incluso  \href{htt
 %= insert_futurama_video
 \includegraphics{images/figures/futurama_math_lecture.png} % html_ignore
 \end{center}
-\caption{\href{https://tauday.com/tau-manifesto/\#sec-about_the_author}{Michael Hartl} demuestra que \href{https://es.wikipedia.org/wiki/Matt_Groening}{Matt Groening} se equivoca recitando 40 dígitos decimales de $\pi$.\label{fig:futurama_video}}
+\caption{\href{https://tauday.com/tau-manifesto/\#sec-about_the_author}{Michael Hartl} recita 40 dígtos de $\pi$ para demostrar que \href{https://es.wikipedia.org/wiki/Matt_Groening}{Matt Groening} se equivoca.\label{fig:futurama_video}}
 \end{figure}
 
-En verdad, las personas partidarias de $\tau$ nos enfrentamos a un imponente adversario. Y sin embargo, contamos con una poderosa aliada, pues la verdad está de nuestra parte.
+Ciertamente, las personas partidarias de $\tau$ nos enfrentamos a un imponente adversario. Y sin embargo, contamos con una poderosa aliada, pues la verdad está de nuestra parte.
 
 % section the_most_important_number (end)
 
@@ -105,14 +105,14 @@ en las $n$-ésimas \href{https://es.wikipedia.org/wiki/Raíz_de_la_unidad}{raíc
 \[
   z^n = 1 \Rightarrow z = e^{2\pi i/n},
 \]
-y en los valores de la \href{https://es.wikipedia.org/wiki/Función_zeta_de_Riemann}{función zeta de Riemann} para enteros positivos pares:\footnote{Aquí $B_n$ es el $n$-ésimo \href{https://es.wikipedia.org/wiki/Número_de_Bernoulli}{número de Bernoulli}.}
+y en los valores de la \href{https://es.wikipedia.org/wiki/Función_zeta_de_Riemann}{función zeta de Riemann} para enteros positivos pares\footnote{Aquí $B_n$ es el $n$-ésimo \href{https://es.wikipedia.org/wiki/Número_de_Bernoulli}{número de Bernoulli}.}:
 \[
   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n}{2(2n)!}\,(2\pi)^{2n}.\qquad n = 1, 2, 3, \ldots
 \]
 
-Estas fórmulas no están cuidadosamente elegidas a propósito ---abre por cualquier página al azar tu libro favorito de física o matemáticas y compruébalo por ti mismo. Hay  \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{muchos más ejemplos}, pero en todo caso la conclusión está clara: $2\pi$~tiene algo de peculiar.
+Estas fórmulas no están cuidadosamente elegidas a propósito: abre por cualquier página al azar tu libro favorito de física o matemáticas y compruébalo por ti misma. Hay \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{muchos más ejemplos}, pero en todo caso la conclusión está clara: $2\pi$~tiene algo de peculiar.
 
-Para llegar al fondo de este misterio, debemos volver a los principios fundamentales y analizar la naturaleza de las circunferencias, y especialmente la naturaleza de los \emph{ángulos}. Aunque es probable que la mayor parte de este material resultará familiar, merece la pena volver a pasar por él, ya que es aquí donde comienza la auténtica comprensión de $\tau$.
+Para llegar al fondo de este misterio, debemos volver a los principios fundamentales y analizar la naturaleza de las circunferencias, y especialmente la naturaleza de los \emph{ángulos}. Aunque es probable que la mayor parte de este material resulte familiar, merece la pena volver a pasar por él, ya que es aquí donde comienza la auténtica comprensión de $\tau$.
 
   \subsection{Circunferencias y ángulos} % (fold)
   \label{sec:circles_and_angles}
@@ -201,7 +201,7 @@ Aunque la medida de ángulos en radianes ofrece algunos de los argumentos más c
 \caption{Las funciones circulares son coordenadas en la circunferencia unitaria.\label{fig:circle_functions}}
 \end{figure}
 
-Examinemos las gráficas de las funciones circulares para comprender mejor su comportamiento.\footnote{Estas gráficas se han generado con la ayuda de \href{http://www.wolframalpha.com/}{Wolfram|Alpha}.} En la figura ~\ref{fig:sine_with_tau} y la figura~\ref{fig:cosine_with_tau} se observa que ambas funciones son \emph{periódicas} con periodo $T$. Como se muestra en la figura~\ref{fig:sine_with_tau}, la función $\sin\theta$ comienza en cero, alcanza un máximo al llegar a un cuarto del periodo, pasa por cero en la mitad del periodo, alcanza un mínimo en las tres cuartas partes del periodo y vuelve a cero tras un periodo completo. Por su parte, la función $\cos\theta$ comienza en un máximo, tiene un mínimo en la mitad del periodo y pasa por cero en un cuarto y tres cuartos del periodo (figura~\ref{fig:cosine_with_tau}). A modo de referencia, ambas figuras muestran el valor de $\theta$ (en radianes) en cada punto especial.
+Examinemos las gráficas de las funciones circulares para comprender mejor su comportamiento\footnote{Estas gráficas se han generado con la ayuda de \href{http://www.wolframalpha.com/}{Wolfram|Alpha}.}. En la figura ~\ref{fig:sine_with_tau} y la figura~\ref{fig:cosine_with_tau} se observa que ambas funciones son \emph{periódicas} con periodo $T$. Como se muestra en la figura~\ref{fig:sine_with_tau}, la función $\sin\theta$ comienza en cero, alcanza un máximo al llegar a un cuarto del periodo, pasa por cero en la mitad del periodo, alcanza un mínimo en las tres cuartas partes del periodo y vuelve a cero tras un periodo completo. Por su parte, la función $\cos\theta$ comienza en un máximo, tiene un mínimo en la mitad del periodo y pasa por cero en un cuarto y tres cuartos del periodo (figura~\ref{fig:cosine_with_tau}). A modo de referencia, ambas figuras muestran el valor de $\theta$ (en radianes) en cada punto especial.
 
 %TODO Translate figure
 \begin{figure}
@@ -223,9 +223,7 @@ Por supuesto, dado que tanto seno como coseno completan un ciclo completo tras u
 \[
   \theta_\mathrm{cero} = \frac{\tau}{2} \approx 3.14.
 \]
-Así es: me quedé atónito al descubrir que \emph{ya había olvidado que a veces $\tau/2$ se llama ``$\pi$''.} Quizá incluso te acaba de pasar lo mismo a ti. 
-
-Bienvenido o bienvenida a mi mundo.
+Así es: me quedé atónito al descubrir que \emph{ya había olvidado que a veces $\tau/2$ se llama ``$\pi$''.} Quizá incluso te acaba de pasar lo mismo a ti. Bienvenido o bienvenida a mi mundo.
 
   % subsection the_circle_functions (end)
 
@@ -234,7 +232,7 @@ Bienvenido o bienvenida a mi mundo.
    \subsection{La identidad de Euler} % (fold)
    \label{sec:euler_s_identity}
 
-Sería un descuido por mi parte no abordar la \emph{identidad de Euler}, algunas veces calificada como ``la ecuación más hermosa de las matemáticas''. Esta identidad involucra a la \emph{exponencial compleja}, que está profundamentamente conectada tanto con la constante de la circunferencia como con su misma geometría.
+Sería un descuido por mi parte no abordar la \emph{identidad de Euler}, algunas veces calificada como ``la ecuación más hermosa de las matemáticas''. Esta identidad utiliza la \emph{exponencial compleja}, que está profundamentamente conectada tanto con la constante de la circunferencia como con su misma geometría.
 
 Dependiendo del camino elegido, la siguiente ecuación se puede demostrar como teorema o tomar como definición; en cualquier caso, es realmente excepcional:
 \begin{equation}
@@ -244,7 +242,7 @@ e^{i\theta} = \cos\theta + i\sin\theta. \qquad\mbox{Fórmula de Euler}
 %TODO Letters with accents are a bit off on mboxes
 Conocida como la \emph{fórmula de Euler} (en honor a \href{https://es.wikipedia.org/wiki/Leonhard_Euler}{Leonhard Euler}), esta ecuación relaciona una exponencial con argumento imaginario con las funciones circulares seno y coseno y con la unidad imaginaria~$i$. Aunque explicar la fórmula de Euler queda fuera del alcance de este manifiesto, su origen no es precisamente sospechoso, y su importancia es incuestionable.
 
-Evaluar la ecuación~\eqref{eq:eulers_formula} en $\theta = \tau$ da como resultado la \emph{identidad de Euler}:\footnote{Aquí estoy difiniendo implícitamente la identidad de Euler como la \emph{exponencial compleja de la constante de la circunferencia} en lugar de definirla como la exponencial compleja de cualquier número en particular. Si elegimos  $\tau$ como la constante de la circunferencia, obtenemos la identidad mostrada. Como veremos en breve, esta no es la forma tradicional de la identidad, que por supuesto involucra a $\pi$, pero la versión con  $\tau$ es la forma más  \emph{matemáticamente} significativa de la identidad, así que creo que merece el nombre.}
+Evaluar la ecuación~\eqref{eq:eulers_formula} en $\theta = \tau$ da como resultado la \emph{identidad de Euler}\footnote{Aquí estoy difiniendo implícitamente la identidad de Euler como la \emph{exponencial compleja de la constante de la circunferencia} en lugar de definirla como la exponencial compleja de cualquier número en particular. Si elegimos  $\tau$ como la constante de la circunferencia, obtenemos la identidad mostrada. Como veremos en breve, esta no es la forma tradicional de la identidad, que por supuesto involucra a $\pi$, pero la versión con  $\tau$ es la forma más  \emph{matemáticamente} significativa de la identidad, así que creo que merece el nombre.}:
 \[ e^{i\tau} = 1. \qquad\mbox{Identidad de Euler (versión con $\tau$)} \]
 Expresada en palabras, esta ecuación realiza la siguiente observación fundamental:
 
@@ -261,7 +259,7 @@ Geométricamente, multiplicar por $e^{i\theta}$ equivale a rotar un número comp
 
 \noindent Dado que el número $1$ es la \href{https://es.wikipedia.org/wiki/Elemento_neutro}{identidad multiplicativa}, el significado geométrico de $e^{i\tau} = 1$ es que rotar un punto en el plano complejo una vuelta completa simplemente lo devuelve a su posición original.
 
-Como en el caso de la medición de ángulos en radianes, vemos lo natural que resulta la asociación entre $\tau$ y una vuelta alrededor de una circunferencia. Tanto es así, que la identificación de $\tau$ con ``una vuelta'' hace que la identidad de Euler suene casi como una tautología.\footnote{Técnicamente, todos los teoremas matemáticos son tautologías, pero no seamos tan pedantes.}
+Como en el caso de la medición de ángulos en radianes, vemos lo natural que resulta la asociación entre $\tau$ y una vuelta alrededor de una circunferencia. Tanto es así, que la identificación de $\tau$ con ``una vuelta'' hace que la identidad de Euler suene casi como una tautología\footnote{Técnicamente, todos los teoremas matemáticos son tautologías, pero no seamos tan pedantes.}.
 
 
     \subsubsection{No precisamente la ecuación más hermosa} % (fold)
@@ -274,9 +272,9 @@ e^{i\pi} = -1. \qquad\mbox{Identidad de Euler (versión con $\pi$)}
 \end{equation}
 Pero ese signo menos es tan feo que la fórmula casi siempre se reordena inmediatamente, produciendo la siguiente ``hermosa'' ecuación:
 \[ e^{i\pi} + 1 = 0. \qquad\mbox{Identidad de Euler (reordenada)} \]
-Al llegar a este punto, habitualmente quien explica efectúa alguna afirmación grandilocuente sobre cómo la identidad de Euler relaciona $0$, $1$, $e$, $i$ y $\pi$ ---en ocasiones llamados los ``cinco números más importantes en matemáticas''. Es impresionante la cantidad de gente que se queja de que la identidad de Euler con $\tau$ solo relaciona \emph{cuatro} de estos cinco. De acuerdo:
+Al llegar a este punto, habitualmente quien explica efectúa alguna afirmación grandilocuente sobre cómo la identidad de Euler relaciona $0$, $1$, $e$, $i$ y $\pi$, s´ ocasiones llamados los ``cinco números más importantes en matemáticas''. Es impresionante la cantidad de gente que se queja de que la identidad de Euler con $\tau$ solo relaciona \emph{cuatro} de estos cinco. De acuerdo:
 \[ e^{i\tau} = 1 + 0. \]
-Esta fórmula, \emph{sin} reordenar, en relaciona verdaderamente los cinco números más importantes en matemáticas: $0$, $1$, $e$, $i$ y $\tau$.
+Esta fórmula, \emph{sin} reordenar, relaciona ciertamente los cinco números más importantes en matemáticas: $0$, $1$, $e$, $i$ y $\tau$.
 
       \subsubsection{Identidades eulerianas} % (fold)
       \label{sec:eulerian_identities}
@@ -305,7 +303,7 @@ $\tau$ & $e^{i\tau}$ & $ = $ & $1$
 \caption{Identidades eulerianas para rotaciones de cuartos de vuelta, media vuelta y vuelta completa.\label{table:eulerian_identities}}
 \end{table}
 
-Podemos llevar este análisis un paso más allá señalando que, para cualquier ángulo~$\theta$, se puede interpretar $e^{i\theta}$ como un punto perteneciente a la circunferencia unidad en el plano complejo. Como el plano complejo identifica el eje horizontal con la parte real del número y el eje vertical con la parte imaginaria, la fórmula de Euler nos dice que $e^{i\theta}$ son las coordenadas $(\cos\theta, \sin\theta)$. Si introducimos los valores de los ángulos ``especiales'' de la figura~\ref{fig:tau_angles} en la ecuación~\eqref{eq:eulers_formula} obtenemos entonces los puntos de la tabla~\ref{table:complex_exponentials}, y si dibujamos estos puntos en el plano complejo obtendremos la figura~\ref{fig:tau_euler_circle}. Comparar la figura~\ref{fig:tau_euler_circle} con la figura~\ref{fig:tau_angles} disipa rápidamente cualquier duda acerca de cuál de las constantes de la circunferencia revela mejor la relación entre la fórmula de Euler y la geometría del círculo.
+Podemos llevar este análisis un paso más allá señalando que, para cualquier ángulo~$\theta$, se puede interpretar $e^{i\theta}$ como un punto perteneciente a la circunferencia unidad en el plano complejo. Como el plano complejo identifica el eje horizontal con la parte real del número y el eje vertical con la parte imaginaria, la fórmula de Euler nos dice que $e^{i\theta}$ son las coordenadas $(\cos\theta, \sin\theta)$. Si introducimos los valores de los ángulos ``especiales'' de la figura~\ref{fig:tau_angles} en la ecuación~\eqref{eq:eulers_formula} obtenemos entonces los puntos de la tabla~\ref{table:complex_exponentials}, y si dibujamos estos puntos en el plano complejo obtendemos la figura~\ref{fig:tau_euler_circle}. Comparar la figura~\ref{fig:tau_euler_circle} con la figura~\ref{fig:tau_angles} disipa rápidamente cualquier duda acerca de cuál de las constantes de la circunferencia revela mejor la relación entre la fórmula de Euler y la geometría del círculo.
 
 \begin{table}
 \begin{center}
@@ -338,7 +336,7 @@ $e^{i\tau}$ & $1$ & $(1, 0)$
 \section{El área del círculo: el \emph{tiro de gracia}} % (fold)
 \label{sec:circular_area}
 
-Si has llegado aquí como un creyente en $\pi$, a estas alturas deberías estar cuestionando tu fe. $\tau$ es tan natural, su significado tan obvio... ¿No hay ningún ejemplo en que $\pi$ brille con toda su gloria? Se agita un recuerdo ---sí, existe una fórmula así---, ¡es la fórmula del área del círculo! Contemplad:
+Si has llegado aquí como un creyente en $\pi$, a estas alturas probablemente estarás poniendo en duda tu fe. $\tau$ es tan natural, su significado tan obvio... ¿No hay ningún ejemplo en que $\pi$ brille con toda su gloria? Se agita un recuerdo ---sí, existe una fórmula así---, ¡es la fórmula del área del círculo! Contemplad:
 \[ A = \tfrac{1}{4} \pi D^2. \]
 No, un momento. La fórmula del área siempre se escribe en términos del \emph{radio}, así:
 \[ A = \pi r^2. \]
@@ -348,7 +346,7 @@ Aquí vemos a $\pi$, sin adornos, en una de las ecuaciones más importantes en m
   \subsection{Formas cuadráticas} % (fold)
   \label{sec:quadratic_forms}
 
-Examinemos este modelo ejemplar de $\pi$, $A = \pi r^2$. Observamos que relaciona el diámetro ---no, un momento, el \emph{radio}--- elevado a la segunda potencia. Esto lo convierte en una sencilla \emph{forma cuadrática}. Tales formas se presentan en muchos contextos; como \href{http://thesis.library.caltech.edu/1940/}{físico}, mis ejemplos favoritos provienen del plan de estudios básico de la carrera de física. Vamos a considerar unos cuantos, uno detrás de otro.
+Examinemos este modelo ejemplar de $\pi$, $A = \pi r^2$. Observamos que relaciona el diámetro ---no, un momento, el \emph{radio}--- elevado a la segunda potencia. Esto lo convierte en una sencilla \emph{forma cuadrática}. Tales formas se presentan en muchos contextos; como \href{http://thesis.library.caltech.edu/1940/}{físico}, mis ejemplos favoritos provienen del plan de estudios básico de la carrera de física. Vamos a considerar unos cuantos de estos ejemplos seguidos.
 
     \subsubsection{Caídas en un campo gravitacional uniforme} % (fold)
     \label{sec:falling_in_a_uniform_gravitational_field}
@@ -366,7 +364,7 @@ Como la velocidad es la derivada de la posición, podemos calcular la distancia 
 
 \href{https://es.wikipedia.org/wiki/Robert_Hooke}{Robert Hooke} descubrió que la fuerza externa requerida para estirar un muelle es proporcional a su elongación:
 \[ F \propto x. \]
-La constante de proporcionalidad es la constante elástica del muelle~$k$:\footnote{Puede que hayas visto esto escrito como $F = -kx$. en este caso, $F$ hace referencia a la fuerza ejercida por el \emph{muelle}. Por la tercera ley de Newton, la fuerza externa de la que se habla arriba es igual y de \emph{signo opuesto} a la fuerza del muelle.}
+La constante de proporcionalidad es la constante elástica del muelle~$k$\footnote{Puede que hayas visto esto escrito como $F = -kx$. en este caso, $F$ hace referencia a la fuerza ejercida por el \emph{muelle}. Por la tercera ley de Newton, la fuerza externa de la que se habla arriba es igual y de \emph{signo opuesto} a la fuerza del muelle.}:
 \[ F = k x. \]
 La energía potencial del muelle es por tanto igual al trabajo realizado por la fuerza externa:
 \[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2. \]
@@ -402,7 +400,7 @@ La constante de proporcionalidad es $\tau$:
 El área de un círculo, entonces, es la integral de todos los anillos:
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau\,r\,dr = \textstyle{\frac{1}{2}} \tau\,r^2. \]
 
-Si aún eras partidario acérrimo de  $\pi$ al comienzo de esta sección, ahora te ha explotado la cabeza. Y es que vemos que aún en este caso, donde supuestamente $\pi$ debía resplandecer, en realidad se ha perdido un factor de $2$. De hecho, la demostración original de Arquímedes no muestra que el área de un círculo sea $\pi r^2$, sino que es igual al área de un triángulo rectángulo de base $C$ y altura $r$. Si aplicamos la fórmula para aŕeas de triángulos obtenemos
+Si aún eras partidaria o partidario acérrimo de  $\pi$ al comienzo de esta sección, ahora te habrá explotado la cabeza. Y es que vemos que aún en este caso, donde supuestamente $\pi$ debía resplandecer, en realidad se ha perdido un factor de $2$. De hecho, la demostración original de Arquímedes no muestra que el área de un círculo sea $\pi r^2$, sino que es igual al área de un triángulo rectángulo de base $C$ y altura $r$. Si aplicamos la fórmula para aŕeas de triángulos obtenemos
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau\,r^2.
 \]
@@ -440,23 +438,23 @@ A pesar de esta decisiva demostración de su superioridad, hay muchas personas q
 
 La verdadera prueba que debe superar cualquier notación es el uso, y después de haber visto la letra $\tau$ en uso a lo largo de todo este manifiesto, es posible que te haya convencido de que sirve bien a su propósito. Pero en el caso de una constante tan fundamental como $\tau$ estaría bien tener razones más profundas para su elección. ¿Por qué no $\alpha$, por ejemplo, u $\omega$? ¿Qué tiene $\tau$ de especial?
 
-Hay dos razones principales para utilizar $\tau$ para representar la constante de la circunferencia. La primera es que $\tau$ se parece visualmente a $\pi$: tras siglos de uso, la asociación de $\pi$ con la constante de la circunferencia es inevitable, y el empleo de $\tau$ se nutre de esta asociación en lugar de combatirla (de hecho, la línea horizontal en ambas letras sugiere que interpretemos las ``patas'' como \emph{denominadores}, de manera que $\pi$ tiene dos patas en su denominador y $\tau$ solo una. Visto de esta forma, la relación $\tau = 2\pi$ resulta perfectamente natural).\footnote{Gracias al lector de \emph{El manifiesto tau} Jim Porter por señalar esta interpretación.}
+Hay dos razones principales para utilizar $\tau$ para representar la constante de la circunferencia. La primera es que $\tau$ se parece visualmente a $\pi$: tras siglos de uso, la asociación de $\pi$ con la constante de la circunferencia es inevitable, y el empleo de $\tau$ se nutre de esta asociación en lugar de combatirla (de hecho, la línea horizontal en ambas letras sugiere que interpretemos las ``patas'' como \emph{denominadores}, de manera que $\pi$ tiene dos patas en su denominador y $\tau$ solo una. Visto de esta forma, la relación $\tau = 2\pi$ resulta perfectamente natural)\footnote{Gracias al lector de \emph{El manifiesto tau} Jim Porter por señalar esta interpretación.}.
 
 La segunda razón es que $\tau$ se corresponde con una \emph{vuelta} (N.~del~T.: en inglés, ``turn'') alrededor de una circunferencia, y puede que hayas observado que tanto ``$\tau$'' como ``turn'' comienzan con sonido de ``\emph{t}''. Este fue el motivo original para la elección de $\tau$, y no es una coincidencia: la raíz de la palabra inglesa ``turn'' es la palabra griega τόρνος (tornos), que significa ``torno''. Si utilizamos una tipografía matemática para la primera letra de τόρνος tenemos $\tau$.
 
-Desde la presentación original de \emph{El manifiesto tau}, he descubierto que \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s} propuso de manera independiente utilizar $\tau$ a Bob Palais, autor de ``$\pi$ Is Wrong!'', en 2010, que John Fisher propuso usar $\tau$ en una \href{https://groups.google.com/forum/#!msg/sci.math/c-DHmJHSA0A/sLCoOtHB1UAJ}{publicación en Usenet} en 2004, ¡y que Joseph Lindenberg anticipó tanto la discusión como el símbolo más de veinte años antes (Lindenberg ha colgado tanto su manuscrito original a máquina como un gran número de argumentos en su página web \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool})! El Dr.~Harremo\"{e}s ha destacado la importancia de un aspecto ya presentado en la sección~\ref{sec:an_immodest_proposal}: emplear $\tau$ da un \emph{nombre} a la constante de la circunferencia. Dado que $\tau$ es una letra griega común, aquellas personas que la encuentren por primera vez pueden pronunciarla inmediatamente. Más aún, a diferencia de llamar a la constante de la circunferencia ``una vuelta'',
+Desde la presentación original de \emph{El manifiesto tau}, he descubierto que \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s} propuso de manera independiente utilizar $\tau$ a Bob Palais, autor de ``$\pi$ Is Wrong!'', en 2010, que John Fisher propuso usar $\tau$ en una \href{https://groups.google.com/forum/#!msg/sci.math/c-DHmJHSA0A/sLCoOtHB1UAJ}{publicación en Usenet} en 2004, ¡y que Joseph Lindenberg anticipó tanto la discusión como el símbolo más de veinte años antes\footnote{Lindenberg ha colgado tanto su manuscrito original a máquina como un gran número de argumentos en su página web \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool}.}! El Dr.~Harremo\"{e}s ha destacado la importancia de un aspecto ya presentado en la sección~\ref{sec:an_immodest_proposal}: emplear $\tau$ da un \emph{nombre} a la constante de la circunferencia. Dado que $\tau$ es una letra griega común, aquellas personas que la encuentren por primera vez pueden pronunciarla inmediatamente. Más aún, a diferencia de llamar a la constante de la circunferencia ``una vuelta'',
 $\tau$ funciona bien tanto en contextos escritos como orales. Por ejemplo, decir que el ángulo de un cuarto de circunferencia en radianes es ``un cuarto de vuelta'' en radianes suena muy bien, pero ``vuelta cuartos radianes'' suena forzado, y ``el área de un círculo es media vuelta por $r$ al cuadrado'' suena realmente raro. Utilizando $\tau$, podemos decir ``tau cuartos radianes'' y ``el área de un círculo es tau medios por $r$ al cuadrado''.
 
     \subsubsection{Notación ambigua} % (fold)
     \label{sec:ambiguous_notation}
 
-No hay duda de que cualquier notación nueva conlleva un potencial conflicto con el uso preexistente. Como se señala en la sección~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!''\ evita este problema acuñando un nuevo símbolo (figura~\ref{fig:palais_tau}). Existen precedentes de esta práctica; por ejemplo, en los primeros tiempos de la mecánica cuántica \href{https://es.wikipedia.org/wiki/Max_Planck}{Max Planck} introdujo la constante~$h$, que relaciona la energía de una partícula de luz con su energía (de la forma $E = h\nu$), pero el mundo de la física pronto se dio cuenta de que a menudo resultaba más cómodo utilizar $\hbar$ (léase ``hache barra'') ---donde $\hbar$ simplemente es $h$ dividido entre\ldots\ hum\ldots\ $2\pi$--- y su uso es ahora estándar. No obstante, es difícil lograr la aceptación de un nuevo símbolo: debe dársele un nombre, se debe popularizar y el símbolo en sí debe añadirse a los sistemas de procesamiento de textos y tipografías. Por otra parte, promulgar un nuevo símbolo para $2\pi$ requeriría la cooperación de la comunidad académica matemática, que en la cuestión de $\pi$ vs.\ $\tau$ ha sido hasta el momento apática en el mejor de los casos y hostil en el peor. Emplear un símbolo que ya existe nos facilitará brujulear dentro del establishment matemático (quizá algún día la comunidad matemática consensuará un símbolo diferente para $2\pi$; si eso llega a suceder, me reservo el derecho de apoyar su propuesta. Pero han tenido más de trescientos años para arreglar este problema en torno a $\pi$, así que yo esperaría sentado).
+No hay duda de que cualquier notación nueva conlleva un potencial conflicto con el uso preexistente. Como se señala en la sección~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!''\ evita este problema acuñando un nuevo símbolo (figura~\ref{fig:palais_tau}). Existen precedentes de esta práctica; por ejemplo, en los primeros tiempos de la mecánica cuántica \href{https://es.wikipedia.org/wiki/Max_Planck}{Max Planck} introdujo la constante~$h$, que relaciona la energía de una partícula de luz con su energía (de la forma $E = h\nu$), pero el mundo de la física pronto se dio cuenta de que a menudo resultaba más cómodo utilizar $\hbar$ (léase ``hache barra'') ---donde $\hbar$ simplemente es $h$ dividido entre\ldots\ hum\ldots\ $2\pi$--- y su uso es ahora estándar. No obstante, es difícil lograr la aceptación de un nuevo símbolo: debe dársele un nombre, se debe popularizar y el símbolo en sí debe añadirse a los sistemas de procesamiento de textos y tipografías. Por otra parte, promulgar un nuevo símbolo para $2\pi$ requeriría la cooperación de la comunidad académica matemática, que en la cuestión de $\pi$ vs.\ $\tau$ ha sido hasta el momento apática en el mejor de los casos y hostil en el peor. Emplear un símbolo que ya existe nos facilitará brujulear dentro del establishment matemático\footnote{Quizá algún día la comunidad matemática consensuará un símbolo diferente para $2\pi$; si eso llega a suceder, me reservo el derecho de apoyar su propuesta. Pero han tenido más de trescientos años para arreglar este problema en torno a $\pi$, así que yo esperaría sentado).}.
 
-Antes que promover un símbolo nuevo, \emph{El manifiesto tau} opta por el uso de una letra griega existente. Por ello, dado que $\tau$ ya se utiliza en algunos contextos, debemos atender a los conflictos con la práctica vigente. Por suerte hay sorprendentemente pocos usos comunes. Aún más, aunque $\tau$ se utiliza para ciertas variables \emph{específicas} ---por ejemplo, \emph{tensión cortante} en ingeniería mecánica, \emph{torque} en mecánica rotacional y  \emph{tiempo propio} en relatividad especial y general--- no hay ningún uso conflictivo \emph{universal}.\footnote{Posiblemente la única excepción sea la \emph{proporción áurea}, que normalmente se denota mediante $\tau$ en Europa. Pero además de existir una alternativa común a esta notación ---a saber, la letra griega $\varphi$---, este uso demuestra que existe un precedente para asignar $\tau$ a una constante matemática fundamental.} En estos casos, podemos tolerar la ambigüedad o evitar los escasos conflictos existentes cambiando de manera selectiva la notación, usando por ejemplo $N$ para el torque\footnote{Esta alternativa para el torque ya se utiliza; véase, por ejemplo, \emph{Introduction to Electrodynamics} de David Griffiths, p.~162.} o $\tau_p$ para el tiempo propio.
+Antes que promover un símbolo nuevo, \emph{El manifiesto tau} opta por el uso de una letra griega existente. Por ello, dado que $\tau$ ya se utiliza en algunos contextos, debemos atender a los conflictos con la práctica vigente. Por suerte hay sorprendentemente pocos usos que sean habituales. Aún más, aunque $\tau$ se utiliza para ciertas variables \emph{específicas} (por ejemplo, \emph{tensión cortante} en ingeniería mecánica, \emph{torque} en mecánica rotacional y  \emph{tiempo propio} en relatividad especial y general) no hay ningún uso conflictivo \emph{universal}\footnote{Posiblemente la única excepción sea la \emph{proporción áurea}, que normalmente se denota mediante $\tau$ en Europa. Pero además de existir una alternativa común a esta notación (a saber, la letra griega $\varphi$), este uso demuestra que existe un precedente para asignar $\tau$ a una constante matemática fundamental.}. En estos casos, podemos tolerar la ambigüedad o evitar los escasos conflictos existentes cambiando de manera selectiva la notación, usando por ejemplo $N$ para el torque\footnote{Esta alternativa para el torque ya se utiliza; véase, por ejemplo, \emph{Introduction to Electrodynamics} de David Griffiths, p.~162.} o $\tau_p$ para el tiempo propio.
 
 A pesar de estos argumentos, los potenciales usos conflictivos han sido la mayor fuente de oposición a $\tau$. Algunos periodistas han llegado a negar categóricamente que $\tau$ (o, presumiblemente, cualquier otro símbolo actualmente en uso) pudiera superar estos problemas. Pero la ciencia y la ingeniería tienen una elevada tolerancia a la ambigüedad notacional, y afirmar que $\tau$ como constante de la circunferencia no puede coexistir con otros usos ignora la existencia de una significativa evidencia en sentido contrario.
 
-Un ejemplo de  ambigüedad que se tolera tranquilamente se da en mecánica cuántica, donde encontramos la siguiente fórmula para el  \emph{radio de Bohr}, que (\textit{grosso modo}) es el ``tamaño'' de un átomo de hidrógeno en su estado de mínima energía (el \emph{estado fundamental}):
+Un ejemplo de  ambigüedad que se tolera tranquilamente se da en mecánica cuántica, ámbito en que encontramos la siguiente fórmula para el  \emph{radio de Bohr}, que (\textit{grosso modo}) es el ``tamaño'' de un átomo de hidrógeno en su estado de mínima energía (el \emph{estado fundamental}):
 \[
 a_0 = \frac{\hbar^2}{m e^2},
 \]
@@ -468,7 +466,7 @@ donde $m$ es la masa del electrón y $e$ es su carga. Por su parte, el estado fu
 \end{equation}
 donde $N$ es una constante de normalización.
 
-¿Ya te has dado cuenta del problema? Probablemente no, y ese es precisamente el asunto. El ``problema'' es que la $e$ en el radio de Bohr y la $e$ en la función de onda \emph{no son la misma $e$} ---la primera es la carga del electrón, mientras que la segunda es el número de Euler (la base de los logaritmos naturales). De hecho, si desarrollamos el factor $a_0$ en el exponente en la ecuación~\eqref{eq:hydrogen}, obtenemos
+¿Ya te has dado cuenta del problema? Probablemente no, y ese es precisamente el asunto. El ``problema'' es que la $e$ en el radio de Bohr y la $e$ en la función de onda \emph{no son la misma $e$}; la primera es la carga del electrón, mientras que la segunda es el número de Euler (la base de los logaritmos naturales). De hecho, si desarrollamos el factor $a_0$ en el exponente en la ecuación~\eqref{eq:hydrogen}, obtenemos
 \[
 \psi(r) = N\,e^{-m e^2 r/\hbar^2},
 \]
@@ -477,7 +475,7 @@ que tiene una $e$ elevado a algo que contiene otra $e$ distinta. Es aún peor de
 \psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0} =\frac{m^{3/2} e^3}{\pi^{1/2} \hbar^3}\,e^{-m e^2 r/\hbar^2}.
 \]
 
-No me cabe ninguna duda de que si no hubiera existido una notación específica para el número de Euler, a cualquier persona que hubiera propuesto la letra $e$ se le habría dicho que era imposible por entrar en conflicto con otros usos. Y a pesar de ello, en la práctica nadie ha tenido nunca ningún problema en usar $e$ en los dos contextos arriba señalados. Hay muchos otros ejemplos, que incluyen situaciones donde incluso $\pi$ se utiliza para dos cosas distintas.\footnote{Véase, por ejemplo, \emph{An Introduction to Quantum Field Theory} de Peskin y Schroeder, donde $\pi$ se utiliza tanto para denotar la constante de la circunferencia como para un ``momento conjugado'' en la misma página (p.~282).} Resulta difícil explicar por qué utilizar $\tau$ para distintos números es diferente.
+No me cabe ninguna duda de que si no hubiera existido una notación específica para el número de Euler, a cualquier persona que hubiera propuesto la letra $e$ se le habría dicho que era imposible por entrar en conflicto con otros usos. Y a pesar de ello, en la práctica nadie ha tenido nunca ningún problema en usar $e$ en los dos contextos arriba señalados. Hay muchos otros ejemplos, que incluyen situaciones donde incluso $\pi$ se utiliza para dos cosas distintas\footnote{Véase, por ejemplo, \emph{An Introduction to Quantum Field Theory} de Peskin y Schroeder, donde $\pi$ se utiliza tanto para denotar la constante de la circunferencia como para un ``momento conjugado'' en la misma página (p.~282).}. Resulta difícil explicar por qué utilizar $\tau$ para distintos números es diferente.
 
 Por cierto, los pedantes de $\pi$ que hay por ahí (y está demostrado que hay muchos) podrían señalar que la función de onda del estado fundamental del hidrógeno tiene un factor de $\pi$:
 \[
@@ -526,14 +524,14 @@ $n$ lados (o ``$n$-ágonos''). Por ejemplo, señala que la suma de los ángulos 
 \]
 Esta cuestión fue tratada en ``Pi Is Wrong!'', que señala lo siguiente: ``la suma de los ángulos interiores [de un triángulo] es $\pi$, de acuerdo. Pero la suma de los ángulos \emph{exteriores} de \emph{cualquier} polígono, de la que la suma de los ángulos interiores se puede derivar fácilmente, y que se generaliza como la integral de la curvatura de una curva cerrada simple, es $2\pi$''. Además, El manifiesto pi presenta la fórmula del área de un $n$-ágono con radio (la distancia desde el centro hasta un vértice) unidad,
 \[ A=n\sin\frac{\pi}{n}\cos\frac{\pi}{n}, \]
-que presenta como ``claramente\ldots\ otra victoria para $\pi$''. Pero si utilizamos la identidad del ángulo doble $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$ vemos que esa expresión se puede reescribir como
+que presenta como ``claramente\ldots\ otra victoria para $\pi$''. Pero si utilizamos la identidad del ángulo doble $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$, vemos que esa expresión se puede reescribir como
 \[ A = n/2\, \sin\frac{2\pi}{n}, \]
 que no es más que
 \begin{equation}
 \label{eq:area_polygon}
 A = \frac{1}{2} n\, \sin\frac{\tau}{n}.
 \end{equation}
-En otras palabras, el área de un $n$-ágono tiene de forma natural un factor de $1/2$. De hecho, tomar el límite de la ecuación~\eqref{eq:area_polygon} cuando $n\rightarrow \infty$ (y aplicar la \href{http://mathworld.wolfram.com/LHospitalsRule.html}{regla de l'H\^{o}pital}) proporciona el área de un polígono regular unitario con infinitos lados, es decir, una circunferencia unitaria:
+En otras palabras, el área de un $n$-ágono tiene de forma natural un factor de $1/2$. De hecho, tomar el límite de la ecuación~\eqref{eq:area_polygon} cuando $n\rightarrow \infty$ (aplicando la \href{http://mathworld.wolfram.com/LHospitalsRule.html}{regla de l'H\^{o}pital}) proporciona el área de un polígono regular unitario con infinitos lados, es decir, una circunferencia unitaria:
 \begin{equation}
 \label{eq:lhopital}
 A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
@@ -561,7 +559,7 @@ Aún me impresiona lo rico que es este asunto, y mi comprensión de $\pi$ y $\ta
   \subsection{Área superficial y volumen de una hiperesfera} % (fold)
   \label{sec:volume_of_a_hypersphere}
 
-Comencemos nuestro estudio generalizando una circunferencia a un número arbitrario de dimensiones.\footnote{Esta discusión se basa en \href{http://spikedmath.com/forum/viewtopic.php?f=30&t=147\#p1577}{una excelente observación de John Kodegadulo} en \href{http://spikedmath.com/}{spikedmath.com}.} Este objeto, llamado \emph{hiperesfera} o \emph{$n$-esfera}, se puede definir de la siguiente manera\footnote{Geómetras y topólogos/as emplean \href{http://mathworld.wolfram.com/Hypersphere.html}{definiciones de hiperesferas incompatibles}; este análisis utiliza las definiciones de los/as geómetras.} (por comodidad, asumimos que estas esferas están centradas en el origen). Una $0$-esfera es el conjunto vacío, y definimos su ``interior'' como un punto.\footnote{Esto tiene sentido, porque un punto no tiene frontera, es decir, la frontera de un punto es el conjunto vacío.} Una $1$-esfera es el conjunto de todos los puntos que satisfacen
+Comencemos nuestro estudio generalizando una circunferencia a un número arbitrario de dimensiones\footnote{Esta discusión se basa en \href{http://spikedmath.com/forum/viewtopic.php?f=30&t=147\#p1577}{una excelente observación de John Kodegadulo} en \href{http://spikedmath.com/}{spikedmath.com}.}. Este objeto, llamado \emph{hiperesfera} o \emph{$n$-esfera}, se puede definir de la siguiente manera\footnote{Geómetras y topólogos/as emplean \href{http://mathworld.wolfram.com/Hypersphere.html}{definiciones de hiperesferas incompatibles}; este análisis utiliza las definiciones de los/as geómetras.} (por comodidad, asumimos que estas esferas están centradas en el origen). Una $0$-esfera es el conjunto vacío, y definimos su ``interior'' como un punto\footnote{Esto tiene sentido, porque un punto no tiene frontera, es decir, la frontera de un punto es el conjunto vacío.}. Una $1$-esfera es el conjunto de todos los puntos que satisfacen
 \[
 x^2 = r^2,
 \]
@@ -601,11 +599,11 @@ Como $V_n(r) = \int S_n(r)\,dr$, tenemos que $S_n(r) = dV_n(r)/dr$, lo que signi
 \label{eq:n_sphere_pi_r}
 S_n(r) = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
-En lugar de quedarnos con estas fórmulas tal cual, veamos si podemos desenmarañarlas para arrojar un poco más de luz sobre la cuestión de $\pi$ vs. $\tau$. Comencemos nuestro análisis señalando que su aparente simplicidad es una ilusión: aunque la función gamma es notacionalmente sencilla, se trata de hecho de una integral sobre un dominio semi-infinito, que no es una idea en absoluto sencilla. Por suerte, la función gamma se puede simplificar en ciertos casos especiales. Por ejemplo, cuando $n$ es un entero, es fácil demostrar (integrando por partes) que
+En lugar de quedarnos con estas fórmulas expresadas de esta manera, veamos si podemos desenmarañarlas para arrojar un poco más de luz sobre la cuestión de $\pi$ vs. $\tau$. Comencemos nuestro análisis señalando que su aparente simplicidad es una ilusión: aunque la función gamma es notacionalmente sencilla, se trata de hecho de una integral sobre un dominio semi-infinito, que no es una idea en absoluto sencilla. Por suerte, la función gamma se puede simplificar en ciertos casos especiales. Por ejemplo, cuando $n$ es un entero, es fácil demostrar (integrando por partes) que
 \[
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
-Vista de esta manera, $\Gamma$ se puede interpretar como una generalización de la función factorial en el dominio de los números reales.\footnote{De hecho, la generalización en el dominio de los números complejos es inmediata: basta con reemplazar una $x$ real por una  $z$ compleja en la ecuación~\eqref{eq:gamma}.}
+Vista de esta manera, $\Gamma$ se puede interpretar como una generalización de la función factorial en el dominio de los números reales\footnote{De hecho, la generalización en el dominio de los números complejos es inmediata: basta con reemplazar una $x$ real por una  $z$ compleja en la ecuación~\eqref{eq:gamma}.}.
 
 En las fórmulas de las áreas superficiales y los volúmenes de $n$ dimensiones, el argumento de $\Gamma$ no es necesariamente un entero, sino que tiene la forma $\left(1 + \frac{n}{2}\right)$, que es un entero cuando $n$ es par y un número \emph{semientero} cuando $n$ es impar. Si tomamos esto en cuenta obtenemos la siguiente expresión, que está tomada de una referencia estándar, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, y, como es habitual, se encuentra escrita en términos de~$\pi$:
 \begin{equation}
@@ -625,7 +623,7 @@ V_n(r) = \begin{cases}
 \end{cases}
 \end{equation}
 
-Examinemos la ecuación ~\eqref{eq:volume_mathworld} en detalle. Notése en primer lugar que MathWorld utiliza la \emph{función doble factorial}~$n!!$ ---pero, curiosamente, solo la utiliza en el caso \emph{impar} (una pista de lo que se avecina). La función doble factorial, aunque raramente se encuentra en matemáticas, es elemental: es como la función factorial normal, pero sustrayendo $2$ en cada paso en lugar de $1$, de manera que, por ejemplo, $5!! = 5 \cdot 3 \cdot 1$ y $6!! = 6 \cdot 4 \cdot 2$. En general, tenemos 
+Examinemos la ecuación ~\eqref{eq:volume_mathworld} en detalle. Notése en primer lugar que MathWorld utiliza la \emph{función doble factorial}~$n!!$ pero, curiosamente, solo la utiliza en el caso \emph{impar} (una pista de lo que se avecina). La función doble factorial, aunque raramente se encuentra en matemáticas, es elemental: es como la función factorial normal, pero sustrayendo $2$ en cada paso en lugar de $1$, de manera que, por ejemplo, $5!! = 5 \cdot 3 \cdot 1$ y $6!! = 6 \cdot 4 \cdot 2$. En general, tenemos 
 \begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
@@ -650,7 +648,7 @@ V_n(r) = \frac{1}{n!!}\times \begin{cases}
  \ldots & \text{si } n \text{ es impar}.
  \end{cases}
 \]
-Bien, ¿hay alguna conexión entre la función factorial y la doble factorial? Sí: cuando $n$ es par, se relacionan mediante la siguiente identidad:
+Veamos, ¿hay alguna conexión entre la función factorial y la doble factorial? Sí: cuando $n$ es par, se relacionan mediante la siguiente identidad:
 \[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}} \]
 (esto es fácil de verificar por \href{https://es.wikipedia.org/wiki/Inducción_matemática}{inducción}). Sustituyendo en la fórmula del volumen para $n$ par tenemos
 \[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \]
@@ -706,7 +704,7 @@ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \b
 \subsubsection{Lambda} % (fold)
 \label{sec:lambda}
 
-Las fórmulas en las ecuaciones~\eqref{eq:surface_area_tau} y~\eqref{eq:volume_tau} suponen una considerable mejora respecto a las formulaciones originales (las ecuaciones~\eqref{eq:surface_area_mathworld} y~\eqref{eq:volume_mathworld}) en términos de $\pi$. Pero en realidad resulta posible una simplificación adicional, utilizando para ello la medida de un \emph{ángulo recto}:\footnote{Jeff Cornell sugirió este cambio de notación y el análisis general.}
+Las fórmulas en las ecuaciones~\eqref{eq:surface_area_tau} y~\eqref{eq:volume_tau} suponen una considerable mejora respecto a las formulaciones originales (las ecuaciones~\eqref{eq:surface_area_mathworld} y~\eqref{eq:volume_mathworld}) en términos de $\pi$. Pero en realidad resulta posible una simplificación adicional, utilizando para ello la medida de un \emph{ángulo recto}\footnote{Jeff Cornell sugirió este cambio de notación y el análisis general.}:
 \begin{equation}
 \label{eq:lambda}
 \lambda = \frac{\tau}{4}.
@@ -759,10 +757,10 @@ y
 V_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \end{equation}
 
-Puede parecer que las simplificaciones en las ecuaciones~\eqref{eq:surface_area_lambda} y~\eqref{eq:volume_lambda} aparecen a costa de introducir un factor de $2^n$, pero aun esto tiene un significado geométrico claro: una esfera en $n$ dimensiones se divide naturalmente en $2^n$ partes congruentes, que se corresponden con las $2^n$ familias de soluciones de $\sum_{i=1}^{n} x_i^2 = r^2$ (una para cada posible elección de $\pm x_i$). En dos dimensiones, existen los arcos para cada uno de los cuatro cuadrantes; en tres dimensiones, tenemos los sectores de esfera en cada octante; y así sucesivamente en dimensiones superiores. En otras palabras, podemos aprovechar la simetría de la esfera para calcular el área superficial o el volumen de \emph{una} parte ---típicamente la \emph{parte principal} en que $x_i > 0$ para cada $i$--- y hallar entonces el valor completo multiplicando por~$2^n$.
+Puede parecer que las simplificaciones en las ecuaciones~\eqref{eq:surface_area_lambda} y~\eqref{eq:volume_lambda} aparecen a costa de introducir un factor de $2^n$, pero aun esto tiene un significado geométrico claro: una esfera en $n$ dimensiones se divide naturalmente en $2^n$ partes congruentes, que se corresponden con las $2^n$ familias de soluciones de $\sum_{i=1}^{n} x_i^2 = r^2$ (una para cada posible elección de $\pm x_i$). En dos dimensiones, existen arcos para cada uno de los cuatro cuadrantes; en tres dimensiones, tenemos sectores de esfera en cada octante; y así sucesivamente en dimensiones superiores. En otras palabras, podemos aprovechar la simetría de la esfera para calcular el área superficial o el volumen de \emph{una} parte (típicamente la \emph{parte principal} en que $x_i > 0$ para cada $i$) y hallar entonces el valor completo multiplicando por~$2^n$.
 
 
-Hasta donde sé, las ecuaciones~\eqref{eq:surface_area_lambda} y~\eqref{eq:volume_lambda} son las formulaciones más sencillas posibles de las fórmulas para la superficie y el volumen de esferas (de hecho son las únicas que he sido capaz de memorizar fiablemente). Consideremos en particular la fórmula del volumen: a diferencia de la  \emph{falsa} simplicidad de la ecuación~\eqref{eq:n_sphere_pi}, la ecuación~\eqref{eq:volume_lambda} no involucra ninguna integral sofisticada ---tan solo las ligeramente exóticas pero en todo caso elementales funciones suelo y doble factorial. El volumen de una $n$-esfera unitaria es simplemente el volumen de cada parte simétrica, $\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplicado por el número de partes, $2^n$.
+Hasta donde sé, las ecuaciones~\eqref{eq:surface_area_lambda} y~\eqref{eq:volume_lambda} son las formulaciones más sencillas posibles de las fórmulas para la superficie y el volumen de esferas (de hecho son las únicas que he sido capaz de memorizar fiablemente). Consideremos en particular la fórmula del volumen: a diferencia de la  \emph{falsa} simplicidad de la ecuación~\eqref{eq:n_sphere_pi}, la ecuación~\eqref{eq:volume_lambda} no involucra ninguna integral sofisticada; tan solo las ligeramente exóticas pero en todo caso elementales funciones suelo y doble factorial. El volumen de una $n$-esfera unitaria es simplemente el volumen de cada parte simétrica, $\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplicado por el número de partes, $2^n$.
 
 % subsubsection lambda (end)
 
@@ -774,7 +772,7 @@ Ya hemos visto, en las ecuaciones~\eqref{eq:surface_area_lambda} y~\eqref{eq:vol
 
 Como ilustra la ecuación~\eqref{eq:volume_lambda}, la fórmula del volumen se divide naturalmente en dos familias, que se corresponden con espacios con número de dimensiones pares e impares, respectivamente. Esto significa que el volumen de cuatro dimensiones, $V_4$, se relaciona fácilmente $V_2$ pero no con $V_3$, mientras que $V_3$ se relaciona con $V_1$ pero no con $V_2$. ¿Cómo se relacionan exactamente?
 
-Podemos encontrar la respuesta a esta pregunta hallando las \emph{relaciones de recurrencia} entre dimensiones.\footnote{El artículo ``\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The volume of the unit ball in \emph{n} dimensions}'' de Phanuel A. Mariano contiene una derivación alternativa de estas importantes relaciones de recurrencia.} En particular, dividamos el volumen de una esfera de $n$ dimensiones por el volumen de una esfera de $(n-2)$ dimensiones:
+Podemos encontrar la respuesta a esta pregunta hallando las \emph{relaciones de recurrencia} entre dimensiones\footnote{El artículo ``\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The volume of the unit ball in \emph{n} dimensions}'' de Phanuel A. Mariano contiene una derivación alternativa de estas importantes relaciones de recurrencia.}. En particular, dividamos el volumen de una esfera de $n$ dimensiones por el volumen de una esfera de $(n-2)$ dimensiones:
 \begin{equation}
 \label{eq:volume_recurrence}
 \frac{V_n(r)}{V_{n-2}(r)} =
@@ -807,11 +805,11 @@ V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d
 &= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \\
 &= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
 \end{align}
-evidenciando así que la identificación de  $\tau$ con la ``constante de recurrencia'' no es casualidad ---la constante de recurrencia y la constante de la circunferencia son en realidad lo mismo:
+evidenciando así que la identificación de  $\tau$ con la ``constante de recurrencia'' no es casualidad; la constante de recurrencia y la constante de la circunferencia son en realidad lo mismo:
 \[
 \tau = \mbox{constante de la circunferencia} = \mbox{constante de recurrencia} = 2^2\lambda.
 \]
-En consecuencia, es $\tau$, no $\lambda$, quien proporciona el hilo común que enlaza las dos familias de soluciones pares e impares, como ha ilustrado Joseph Lindenberg en \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (figura~\ref{fig:Nspheres}).\footnote{En realidad \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} expresa la recurrencia en términos de $2\pi$; la versión que muestra la figura~\ref{fig:Nspheres} fue creada a petición mía. Como siempre, estoy enormemente agradecido a Joseph Lindenberg por su constante generosidad y apoyo.}
+En consecuencia, es $\tau$, no $\lambda$, quien proporciona el hilo común que enlaza las dos familias de soluciones pares e impares, como ha ilustrado Joseph Lindenberg en \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (figura~\ref{fig:Nspheres})\footnote{En realidad \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} expresa la recurrencia en términos de $2\pi$; la versión que muestra la figura~\ref{fig:Nspheres} fue creada a petición mía. Como siempre, estoy enormemente agradecido a Joseph Lindenberg por su constante generosidad y apoyo.}.
 
 \begin{figure}
 \begin{center}
@@ -834,12 +832,12 @@ Al tratar esferas en $n$ dimensiones, en general escribiremos las fórmulas del 
 
 Tras habernos armado con las herramientas desarrolladas en la sección~\ref{sec:volume_of_a_hypersphere}, estamos en condiciones de llegar al fondo del asunto de $\pi$ y $\tau$. Para completar esta exploración, utilizaremos las ecuaciones~\eqref{eq:surface_area_lambda} y~\eqref{eq:volume_lambda} para definir dos familias de constantes, y emplearemos la definición de $\pi$ (ecuación~\eqref{eq:pi}) para especificar una tercera, revelando así cuál es exactamente el problema de $\pi$.
 
-En primer lugar, definiremos una familia de ``constantes de área superficial'' $\tau_n$ dividiendo \linebreak la ecuación~\eqref{eq:surface_area_lambda} por $r^{n-1}$, la potencia de $r$ necesaria para obtener una constante adimensional:
+En primer lugar, definimos una familia de ``constantes de área superficial'' $\tau_n$ dividiendo \linebreak la ecuación~\eqref{eq:surface_area_lambda} por $r^{n-1}$, la potencia de $r$ necesaria para obtener una constante adimensional:
 \begin{equation}
 \label{eq:surface_area_constants}
 \tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
 \end{equation}
-En segundo lugar, definiremos una familia de ``constantes de volumen'' $\sigma_n$ dividiendo la fórmula del volumen~\eqref{eq:volume_lambda} por $r^n$:
+En segundo lugar, definimos una familia de ``constantes de volumen'' $\sigma_n$ dividiendo la fórmula del volumen~\eqref{eq:volume_lambda} por $r^n$:
 \begin{equation}
 \label{eq:volume_constants}
 \sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}.
@@ -906,35 +904,40 @@ A lo largo de los años he escuchado muchos argumentos contra la incorrección d
 
   \item \textbf{¿Hablas en serio?} \\ Por supuesto. A ver, me lo paso bien con todo esto, y el tono que uso es a con frecuencia desenfadado, pero existe un propósito serio. Establecer la constante de la circunferencia como su longitud entre su diámetro es una convención peligrosa y confusa. Aunque me encantaría que la comunidad matemática cambiase esta costumbre, no es ella quien realmente me preocupa; puede cuidar de sí misma. 
 
-Son las y los neófitos quienes más me preocupan, ya que se llevan la peor parte del daño: como se señala en la sección~\ref{sec:circles_and_angles}, $\pi$ es un desastre pedagógico. Intenta explicar a alguien de doce años (o a alguien de treinta) por qué la medida del ángulo de un octavo de circunferencia ---una porción de pizza--- es $\pi/8$. Espera, quise decir $\pi/4$. ¿Ves a lo que me refiero? Es una locura ---locura pura y dura.
+Son las y los neófitos quienes más me preocupan, ya que se llevan la peor parte del daño: como se señala en la sección~\ref{sec:circles_and_angles}, $\pi$ es un desastre pedagógico. Intenta explicar a alguien de doce años (o a alguien de treinta) por qué la medida del ángulo de un octavo de circunferencia (una porción de pizza) es $\pi/8$. Espera, quise decir $\pi/4$. ¿Ves a lo que me refiero? Es una locura; locura pura y dura.
      
 
-  \item \textbf{¿Cómo podemos pasar de $\pi$ a $\tau$?} \\ La próxima vez que escribas algo que utilice la constante de la circunferencia, simplemente di ``por comodidad, sea $\tau = 2\pi$'', y después prosigue como de costumbre (por supuesto, esto probablemente provoque la pregunta ``¿por qué querrías hacer tal cosa?'', y reconozco que estaría bien tener algún lugar al que apunjtar con el dedo. Ay, si alguien hubiera escrito, pongamos, un \emph{manifiesto} sobre el tema\ldots). La mejor manera de que la gente empiece a utilizar $\tau$ es empezar a utilizarla tú mismo o tú misma.
-
-  \item \textbf{¿No es muy tarde para cambiar? ¿No haría falta reescribir todos los libros de texto y artículos sobre matemáticas?} \\ La respuesta a ambas preguntas es no. Es cierto que algunas convenciones, aunque desafortunadas, son efectivamente irreversibles. Por ejemplo, la elección de Benjamin Franklin para los signos de las cargas condujo a que en el caso más conocido de corriente eléctrica (a saber, electrones libres en metales), esta sea positiva cuando las cargas son negativas, y \emph{viceversa} ---condenando así a las y los alumnos principiantes de física a manejar signos negativos confusos desde entonces.\footnote{El signo de los portadores de carga no podía determinarse con la tecnología existente en tiempos de Franklin, o sea que no es culpa suya. Simplemente es mala suerte.} Cambiar esta convención \emph{sí} requeriría reescribir todos los libros de texto (y quemar los antiguos), ya que es imposible acertar a saber de un vistazo qué convención se está usando. Por el contrario, mientras que \emph{redefinir} $\pi$ es efectivamente imposible, podemos cambiar de $\pi$ a $\tau$ sobre la marcha utilizando la transformación \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau. \] Es cuestión de mera sustitución mecánica, completamente robusta y desde luego completamente reversible. El cambio de  $\pi$ a $\tau$ puede por tanto suceder gradualmente; a diferencia de una redefinición, no necesita ocurrir de golpe. 
-
-  \item \textbf{¿Usar $\tau$ no confundirá a la gente, especialmente a estudiantes?} \\  Si eres lo suficientemente inteligente como para entender cómo medir ángulos en radianes, eres lo suficientemente inteligente como para entender $\tau$ ---y por qué $\tau$ es de hecho \emph{menos} confusa que $\pi$. Además, no hay nada intrínsecamente confuso en decir ``sea $\tau = 2\pi$''; entendida de forma reduccionista, se trata de una mera sustitución. Por último, podemos asumir esta situación como una oportunidad docente: la idea de que $\pi$ pueda ser un error es \emph{interesante}, y las y los estudiantes pueden involucrarse con el material escolar convirtiendo $\pi$ en $\tau$ en las ecuaciones de sus libros de texto para descubrir por sí mismos qué opción es mejor. 
+  \item \textbf{¿Cómo podemos pasar de $\pi$ a $\tau$?} \\ La próxima vez que escribas algo que utilice la constante de la circunferencia, simplemente di ``por comodidad, sea $\tau = 2\pi$'', y después prosigue como de costumbre (por supuesto, esto probablemente provoque la pregunta ``¿por qué querrías hacer tal cosa?'', y reconozco que estaría bien tener algún lugar al que apuntar con el dedo. Ay, si alguien hubiera escrito, pongamos, un \emph{manifiesto} sobre el tema\ldots). La mejor manera de que la gente empiece a utilizar $\tau$ es empezar a utilizarla tú mismo o tú misma.
 
 
-  \item \textbf{¿Importa en algo todo esto?} \\ Desde luego que importa. \emph{La constante de la circunferencia es importante.} A la gente le importa lo suficiente como para escribir libros enteros sobre el tema, para celebrarla en un día particular del año y para memorizar decenas de miles de sus dígitos. A mí me importa lo suficiente como para haber escrito un manifiesto entero, y a ti te importa lo suficiente como para haberlo leído. Es precisamente porque \emph{sí} importa por lo que resulta difícil admitir que la convención en vigor es errónea (en fin, a ver cómo le cuentas a
+  \item \textbf{¿No es muy tarde para cambiar? ¿No haría falta reescribir todos los libros de texto y artículos sobre matemáticas?} \\ La respuesta a ambas preguntas es no. Es cierto que algunas convenciones, aunque desafortunadas, son efectivamente irreversibles. Por ejemplo, la elección de Benjamin Franklin para los signos de las cargas condujo a que en el caso más conocido de corriente eléctrica (a saber, electrones libres en metales), esta sea positiva cuando las cargas son negativas, y \emph{viceversa} (condenando así a las y los alumnos principiantes de física a manejar signos negativos confusos desde entonces\footnote{El signo de los portadores de carga no podía determinarse con la tecnología existente en tiempos de Franklin, o sea que no es culpa suya. Simplemente es mala suerte.}). Cambiar esta convención \emph{sí} requeriría reescribir todos los libros de texto (y quemar los antiguos), ya que es imposible saber de un vistazo qué convención se está usando. Por el contrario, mientras que \emph{redefinir} $\pi$ es efectivamente imposible, podemos cambiar de $\pi$ a $\tau$ sobre la marcha utilizando la transformación \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau. \] Es cuestión de mera sustitución mecánica, completamente robusta y desde luego completamente reversible. El cambio de  $\pi$ a $\tau$ puede por tanto suceder gradualmente; a diferencia de una redefinición, no necesita ocurrir de golpe. 
+
+
+  \item \textbf{¿Usar $\tau$ no confundirá a la gente, especialmente a estudiantes?} \\  Si eres lo suficientemente inteligente como para entender cómo medir ángulos en radianes, eres lo suficientemente inteligente como para entender $\tau$ (y por qué $\tau$ es de hecho \emph{menos} confusa que $\pi$). Además, no hay nada intrínsecamente confuso en decir ``sea $\tau = 2\pi$''; entendida de forma reduccionista, se trata de una mera sustitución. Por último, podemos asumir esta situación como una oportunidad docente: la idea de que $\pi$ pueda ser un error es \emph{interesante}, y las y los estudiantes pueden involucrarse con el material escolar convirtiendo $\pi$ en $\tau$ en las ecuaciones de sus libros de texto para descubrir autónomamente qué opción es mejor. 
+
+
+  \item \textbf{¿Importa lo más mínimo todo esto?} \\ Desde luego que importa. \emph{La constante de la circunferencia es importante.} A la gente le importa lo suficiente como para escribir libros enteros sobre el tema, para celebrarla en un día particular del año y para memorizar decenas de miles de sus dígitos. A mí me importa lo suficiente como para haber escrito un manifiesto entero, y a ti te importa lo suficiente como para haberlo leído. Es precisamente porque \emph{sí} importa por lo que resulta difícil admitir que la convención en vigor es errónea (en fin, a ver cómo le cuentas a
 %TODO this link is not right even in english  
 \href{https://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, la persona que actualmente posee el récord mundial, que ha recitado 67.890 dígitos de la mitad de la verdadera constante de la circunferencia).
   %\footnote{¡Enhorabuena a\href{http://tau2000.com/}{Ethan Brown} por haber establecido el récord mundial de recitado de dígitos de $\tau$ tras haber recitado correctamente 2012 dígitos de $\tau$!}
   Como la constante de la circunferencia es importante, es importante hacer las cosas bien, y en este manifiesto hemos mostrado que el número correcto es $\tau$. Aunque $\pi$ es de gran importancia \emph{histórica}, el significado \emph{matemático} de $\pi$ es que es la mitad de $\tau$.
 
+
   \item \textbf{¿Por qué se empezó a utilizar $\pi$?} \\ \href{https://es.wikipedia.org/wiki/Leonhard_Euler}{Leonhard Euler} popularizó $\pi$ como notación hace unos 300 años (basándose en el trabajo de \href{https://es.wikipedia.org/wiki/William_Jones_(matemático)}{William Jones}), pero los orígenes de $\pi$ como número se pierden en la noche de los tiempos. 
 
 Sospecho que la convención de usar $C/D$ en lugar de $C/r$ surgió simplemente porque es más fácil \emph{medir} el diámetro de un objeto circular que medir su radio. Pero esto no lo convierte en aceptable en matemáticas, y me sorprende que Arquímedes, famoso por haber \href{http://itech.fgcu.edu/faculty/clindsey/mhf4404/archimedes/archimedes.html}{aproximado la constante de la circunferencia}, no se diera cuenta de que $C/r$ es el número más fundamental. Más sorprendido estoy aún de que Euler no corrigiera el problema cuando tuvo la oportunidad; a diferencia de Arquímedes, Euler contaba con la ventaja de la notación algebraica moderna, que (como vimos a partir de la sección~\ref{sec:circles_and_angles}) clarifica sobradamente las relaciones entre las circunferencias y su constante.
 
-  \item \textbf{¿Por qué te interesa este asunto?} \\ En primer lugar, como buscador de la verdad, me importa la corrección explicativa. En segundo lugar, como profesor me preocupo por la claridad expositiva. En tercer lugar, como hacker realmente aprecio un buen parche.
+
+  \item \textbf{¿Por qué te interesa este asunto?} \\ En primer lugar, como buscador de la verdad, me importa la corrección explicativa. En segundo lugar, como profesor me preocupo por la claridad expositiva. En tercer lugar, como hacker sé apreciar una solución rápida y efectiva a un problema.
 
 En cuarto lugar, como estudiante de historia y de la naturaleza humana me resulta fascinante que el despropósito de $\pi$ se encontrase oculto a plena vista durante siglos sin que nadie haya parecido darse cuenta.  Más aún, muchas de las personas que han pasado por alto la verdadera constante de la circunferencia están entre las personas más racionales e inteligentes que han existido. ¿Qué más podemos tener delante de nuestras narices, esperando a que lo descubramos?
 
-  \item \textbf{¿Eres un trastornado o algo así?} \\ En verdad no es asunto tuyo, pero no. Aparte de llevar \href{http://www.vibramfivefingers.com/}{zapatos raros} de vez en cuando, soy perfectamente normal en apariencia. Nunca advertirías que, lejos de ser un ciudadano común, soy en realidad un famoso propagandista matemático.
+
+  \item \textbf{¿Eres un trastornado o algo así?} \\ Realmente no es asunto tuyo, pero no. Aparte de llevar \href{http://www.vibramfivefingers.com/}{zapatos raros} de vez en cuando, soy perfectamente normal en apariencia. Nunca advertirías que, lejos de ser un ciudadano común, soy en realidad un famoso propagandista matemático.
 
 
   \item \textbf{¿Pero qué pasa con los juegos de palabras?} \\ Llegamos a la últimas de las objeciones. Lo sé, lo sé, ``$\pi$ in the sky'' es muy ingenioso\ldots
-Y aún así, $\tau$ está repleta de posibilidades. El $\tau$ismo nos enseña: no es el $\tau$ parte de $\pi$, sino que $\pi$ es parte del $\tau$; la mitad de $\tau$, para ser exactos. La identidad $e^{i\tau} = 1$ nos dice: ``\emph{sé uno con el $\tau$.}'' Y aunque la observación de que ``\emph{una rotación de una vuelta es~1}'' puede sonar a $\tau$tología, está en la auténtica naturaleza del $\tau$. Mientras contemplamos esta naturaleza para buscar el \href{https://es.wikipedia.org/wiki/Tao}{camino} del $\tau$, debemos recordar que el $\tau$ismo se fundamenta en la razón, no en la fe: los $\tau$istas nunca son $\pi$os.
+Y aún así, $\tau$ está repleta de posibilidades. El $\tau$ismo nos enseña: no es el $\tau$ parte de $\pi$, sino que $\pi$ es parte del $\tau$; la mitad de $\tau$, para ser exactos. La identidad $e^{i\tau} = 1$ nos dice: ``\emph{sé uno con el $\tau$}''. Y aunque la observación de que ``\emph{una rotación de una vuelta es~1}'' puede sonar a $\tau$tología, está en la auténtica naturaleza del $\tau$. Mientras contemplamos esta naturaleza para buscar el \href{https://es.wikipedia.org/wiki/Tao}{camino} del $\tau$, debemos recordar que el $\tau$ismo se fundamenta en la razón, no en la fe: los $\tau$istas nunca son $\pi$os.
 
 
 \end{itemize}
@@ -948,7 +951,7 @@ En \emph{El manifiesto tau} hemos expuesto que la elección natural para la cons
 \[
   \mbox{Constante de la circunferencia} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
-Su uso es natural, los motivos para hacerlo están claros y las consecuencias son profundas. Además viene con un diagrama muy guay (figura~\ref{fig:tauism}). En la figura~\ref{fig:tauism} vemos un movimiento a través del \emph{yang} (``luz, blanco, movimiento ascendente'') hasta $\tau/2$ y una vuelta a través del \emph{yin} (``oscuro, negro, movimiento descendente'') hasta llegar de nuevo a $\tau$.\footnote{Las interpretaciones del yin y el yang aquí citadas provienen de \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} de Aaron Hoopes.} Utilizar $\pi$ en lugar de $\tau$ es como tener el \emph{yang} sin el \emph{yin}.
+Su uso es natural, los motivos para hacerlo están claros y las consecuencias son profundas. Además viene con un diagrama muy guay (figura~\ref{fig:tauism}). En la figura~\ref{fig:tauism} vemos un movimiento a través del \emph{yang} (``luz, blanco, movimiento ascendente'') hasta $\tau/2$ y una vuelta a través del \emph{yin} (``oscuro, negro, movimiento descendente'') hasta llegar de nuevo a $\tau$\footnote{Las interpretaciones del yin y el yang aquí citadas provienen de \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} de Aaron Hoopes.}. Utilizar $\pi$ en lugar de $\tau$ es como tener el \emph{yang} sin el \emph{yin}.
 
 \begin{figure}
 \begin{center}
@@ -964,7 +967,7 @@ Su uso es natural, los motivos para hacerlo están claros y las consecuencias so
   \subsection{El día de tau} % (fold)
   \label{sec:tau_day}
 
-\emph{El manifiesto tau} fue publicado por primera vez en el \href{http://tauday.com/}{día de tau}: 28 de junio (6/28 en notación estadounidense) de 2010. El día de tau es un momento para celebrar y regocijarnos en todo lo matemático.\footnote{Como 6 y 28 son los dos primeros \href{https://es.wikipedia.org/wiki/Número_perfecto}{\emph{números perfectos}}, 6/28 es verdaderamente un día \emph{perfecto}.} Si quieres recibir novedades sobre $\tau$, y entre ellas notificaciones sobre posibles eventos futuros del día de tau, únete por favor a la lista de correo de \emph{El manifesto tau} más abajo. Y si crees que los pasteles, tartas y empanadas del día de pi están buenos, espera ---¡el día de tau tiene el doble de pi!\footnote{N.~del T.: juego de palabras intraducible ("And if you think that the circular baked goods on Pi Day are tasty, just wait—Tau Day has twice as much pi(e)!") entre la palabra pi (el número) y pie (tarta), que se pronuncian de igual manera en inglés.}
+\emph{El manifiesto tau} fue publicado por primera vez en el \href{http://tauday.com/}{día de tau}: 28 de junio (6/28 en notación estadounidense) de 2010. El día de tau es un momento para celebrar y regocijarnos en todo lo matemático\footnote{Como 6 y 28 son los dos primeros \href{https://es.wikipedia.org/wiki/Número_perfecto}{\emph{números perfectos}}, 6/28 es verdaderamente un día \emph{perfecto}.}. Si quieres recibir novedades sobre $\tau$, y entre ellas notificaciones sobre posibles eventos futuros del día de tau, únete por favor a la lista de correo de \emph{El manifesto tau} más abajo. Y si crees que los pasteles, tartas y empanadas del día de pi están buenos, espera: ¡el día de tau tiene el doble de pi!\footnote{N.~del T.: juego de palabras intraducible ("And if you think that the circular baked goods on Pi Day are tasty, just wait—Tau Day has twice as much pi(e)!") entre la palabra pi (el número) y pie (tarta), que se pronuncian de igual manera en inglés.}
 
 
 %= <!-- insert_user_engagement -->
@@ -972,7 +975,7 @@ Su uso es natural, los motivos para hacerlo están claros y las consecuencias so
   \subsubsection{Agradecimientos} % (fold)
   \label{sec:acknowledgments}
 
-En primer lugar, me gustaría agradecer a \href{http://www.math.utah.edu/~palais}{Bob Palais} por haber escrito ``$\pi$ Is Wrong!''. No recuerdo cuán hondas eran mis sosprechas sobre $\pi$ antes de encontrarme con ese artículo, pero ``$\pi$ Is Wrong!''\ me abrió definitivamente los ojos, y cada una de las secciones de \emph{El manifiesto tau} tiene con él una deuda de gratitud. También me gustaría dar las gracias a Bob por sus útiles comentarios sobre este manifiesto, y especialmente por tomárselo con tanta deportividad.
+En primer lugar, me gustaría agradecer a \href{http://www.math.utah.edu/~palais}{Bob Palais} por haber escrito ``$\pi$ Is Wrong!''. No recuerdo cuán hondas eran mis sospechas sobre $\pi$ antes de encontrarme con ese artículo, pero ``$\pi$ Is Wrong!''\ me abrió definitivamente los ojos, y cada una de las secciones de \emph{El manifiesto tau} tiene con él una deuda de gratitud. También me gustaría dar las gracias a Bob por sus útiles comentarios sobre este manifiesto, y especialmente por tomárselo con tanta deportividad.
 
 Hace ya tiempo que reflexiono sobre \emph{El manifiesto tau}, y muchas de las ideas que aquí se presentan se desarrollaron en conversaciones con mi amigo Sumit Daftuar. 
 %TODO Is Sumit a he or a she?
@@ -993,7 +996,7 @@ Finalmente, quisiera agradecer a \href{http://techiferous.com/about}{Wyatt Green
 El autor de \emph{El manifiesto tau}, \href{http://www.michaelhartl.com/}{Michael Hartl}, es  profesor, escritor y emprendedor. Es el creador del libro y los \textit{screencasts}
 \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial}, una de las más importantes introducciones al desarrollo web, y fundador de la página de educación tecnológica \href{http://learnenough.com/}{Learn Enough to Be Dangerous}. Anteriormente enseñó física teórica y computacional en \href{http://www.caltech.edu/}{Caltech}, donde recibió el Lifetime Achievement Award for Excellence in Teaching y trabajó como editor de Caltech de \href{http://www.feynmanlectures.caltech.edu/}{\emph{The Feynman Lectures on Physics}}. Es graduado por el \href{http://college.harvard.edu/}{Harvard College}, tiene una \href{http://thesis.library.caltech.edu/1940/}{tesis doctoral en física} por el \href{http://www.caltech.edu/}{California Institute of Technology}, y es titulado del programa de emprendimiento \href{http://ycombinator.com/}{Y~Combinator}.
 
-Michael se avergüenza por admitir que se sabe $\pi$ hasta 50 decimales ---\href{\#fig-futurama_video}{aproximadamente 48 más que Matt Groening}. Para expiar su culpa, ha memorizado \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimales} de $\tau$.
+Michael se avergüenza en admitir que se sabe $\pi$ hasta 50 decimales (\href{\#fig-futurama_video}{aproximadamente 48 más que Matt Groening}). Para expiar su culpa, ha memorizado \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimales} de $\tau$.
 
     \subsubsection{Copyright} % (fold)
     \label{sec:copyright_and_license}
