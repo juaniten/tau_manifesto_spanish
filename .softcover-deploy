@@ -1,18 +1,3 @@
-git push
-
 # Sync with the tauday.com website
 softcover build:html
-cp images/figures/* ~/repos/tauday_new/app/assets/images/figures/
-cp html/tau_manifesto_fragment.html ~/repos/tauday_new/public
-cd /Users/mhartl/repos/tauday_new
-git pull
-git add -A
-git commit -m "Deploy latest version"
-deploy
-
-cd -
-rm -f ebooks/*
-softcover build:pdf -f
-softcover build:pdf -f
-softcover build:mobi
-softcover publish
+cp html/tau_manifesto_fragment.html ~/repos/tauday_new/public/tau_manifesto_es_fragment.html
