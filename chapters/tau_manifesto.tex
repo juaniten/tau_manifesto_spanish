@@ -198,7 +198,7 @@ Aunque la medida de ángulos en radianes ofrece algunos de los argumentos más c
 \caption{Las funciones circulares son coordenadas en la circunferencia unitaria.\label{fig:circle_functions}}
 \end{figure}
 
-Examinemos las gráficas de las funciones circulares para comprender mejor su comportamiento\footnote{Estas gráficas se han generado con la ayuda de \href{http://www.wolframalpha.com/}{Wolfram|Alpha}.}. En la figura ~\ref{fig:sine_with_tau} y la figura~\ref{fig:cosine_with_tau} se observa que ambas funciones son \emph{periódicas} con periodo $T$. Como se muestra en la figura~\ref{fig:sine_with_tau}, la función $\sin\theta$ comienza en cero, alcanza un máximo al llegar a un cuarto del periodo, pasa por cero en la mitad del periodo, alcanza un mínimo en las tres cuartas partes del periodo y vuelve a cero tras un periodo completo. Por su parte, la función $\cos\theta$ comienza en un máximo, tiene un mínimo en la mitad del periodo y pasa por cero en un cuarto y tres cuartos del periodo (figura~\ref{fig:cosine_with_tau}). A modo de referencia, ambas figuras muestran el valor de $\theta$ (en radianes) en cada punto especial.
+Examinemos las gráficas de las funciones circulares para comprender mejor su comportamiento\footnote{Estas gráficas se han generado con la ayuda de \href{http://www.wolframalpha.com/}{Wolfram|Alpha}.}. En la figura ~\ref{fig:sine_with_tau} y la figura~\ref{fig:cosine_with_tau} se observa que ambas funciones son \emph{periódicas} con periodo $T$. Como se muestra en la figura~\ref{fig:sine_with_tau}, la función $\sen\theta$ comienza en cero, alcanza un máximo al llegar a un cuarto del periodo, pasa por cero en la mitad del periodo, alcanza un mínimo en las tres cuartas partes del periodo y vuelve a cero tras un periodo completo. Por su parte, la función $\cos\theta$ comienza en un máximo, tiene un mínimo en la mitad del periodo y pasa por cero en un cuarto y tres cuartos del periodo (figura~\ref{fig:cosine_with_tau}). A modo de referencia, ambas figuras muestran el valor de $\theta$ (en radianes) en cada punto especial.
 
 %TODO Translate figure
 \begin{figure}
@@ -300,7 +300,7 @@ $\tau$ & $e^{i\tau}$ & $ = $ & $1$
 \end{table}
 
 
-Podemos llevar este análisis un paso más allá señalando que, para cualquier ángulo~$\theta$, se puede interpretar $e^{i\theta}$ como un punto perteneciente a la circunferencia unidad en el plano complejo. Como el plano complejo identifica el eje horizontal con la parte real del número y el eje vertical con la parte imaginaria, la fórmula de Euler nos dice que $e^{i\theta}$ son las coordenadas $(\cos\theta, \sin\theta)$. Si introducimos los valores de los ángulos ``especiales'' de la figura~\ref{fig:tau_angles} en la ecuación~\eqref{eq:eulers_formula} obtenemos entonces los puntos de la tabla~\ref{table:complex_exponentials}, y si dibujamos estos puntos en el plano complejo obtendemos la figura~\ref{fig:tau_euler_circle}. Comparar la figura~\ref{fig:tau_euler_circle} con la figura~\ref{fig:tau_angles} disipa rápidamente cualquier duda acerca de cuál de las constantes de la circunferencia revela mejor la relación entre la fórmula de Euler y la geometría del círculo.
+Podemos llevar este análisis un paso más allá señalando que, para cualquier ángulo~$\theta$, se puede interpretar $e^{i\theta}$ como un punto perteneciente a la circunferencia unidad en el plano complejo. Como el plano complejo identifica el eje horizontal con la parte real del número y el eje vertical con la parte imaginaria, la fórmula de Euler nos dice que $e^{i\theta}$ son las coordenadas $(\cos\theta, \sen\theta)$. Si introducimos los valores de los ángulos ``especiales'' de la figura~\ref{fig:tau_angles} en la ecuación~\eqref{eq:eulers_formula} obtenemos entonces los puntos de la tabla~\ref{table:complex_exponentials}, y si dibujamos estos puntos en el plano complejo obtendemos la figura~\ref{fig:tau_euler_circle}. Comparar la figura~\ref{fig:tau_euler_circle} con la figura~\ref{fig:tau_angles} disipa rápidamente cualquier duda acerca de cuál de las constantes de la circunferencia revela mejor la relación entre la fórmula de Euler y la geometría del círculo.
 
 \begin{table}
 \begin{center}
@@ -521,7 +521,7 @@ $n$ lados (o ``$n$-ágonos''). Por ejemplo, señala que la suma de los ángulos 
 \]
 Esta cuestión fue tratada en ``Pi Is Wrong!'', que señala lo siguiente: ``la suma de los ángulos interiores [de un triángulo] es $\pi$, de acuerdo. Pero la suma de los ángulos \emph{exteriores} de \emph{cualquier} polígono, de la que la suma de los ángulos interiores se puede derivar fácilmente, y que se generaliza como la integral de la curvatura de una curva cerrada simple, es $2\pi$''. Además, El Manifiesto Pi presenta la fórmula del área de un $n$-ágono con radio (la distancia desde el centro hasta un vértice) unidad,
 \[ A=n\sen\frac{\pi}{n}\cos\frac{\pi}{n}, \]
-que presenta como ``claramente\ldots\ otra victoria para $\pi$''. Pero si utilizamos la identidad del ángulo doble $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$, vemos que esa expresión se puede reescribir como
+que presenta como ``claramente\ldots\ otra victoria para $\pi$''. Pero si utilizamos la identidad del ángulo doble $\sen\theta\cos\theta = \frac{1}{2} \sen 2\theta$, vemos que esa expresión se puede reescribir como
 \[ A = n/2\, \sen\frac{2\pi}{n}, \]
 que no es más que
 \begin{equation}
