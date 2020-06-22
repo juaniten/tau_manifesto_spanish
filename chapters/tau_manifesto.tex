@@ -793,13 +793,14 @@ Vemos en la ecuación~\eqref{eq:volume_recurrence} que podemos obtener el volume
 De manera similar, para el área superficial tenemos que
 \begin{equation}
 \label{eq:surface_area_recurrence}
-\frac{S_n(r)}{S_{n-2}(r)} =
+\begin{split}
+\frac{S_n(r)}{S_{n-2}(r)} & =
 \frac{2^n}{2^{n-2}}
 \frac{\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{\lambda^{\left\lfloor \frac{n-2}{2} \right\rfloor}}
 \frac{(n-2-2)!!}{(n-2)!!}
 \frac{r^{n}}{r^{n-2}}
-=
-\frac{2^2\lambda}{n-2}\,r^2,
+\\ & = \frac{2^2\lambda}{n-2}\,r^2,
+\end{split}
 \end{equation}
 con la misma constante de recurrencia $2^2\lambda$.
 
