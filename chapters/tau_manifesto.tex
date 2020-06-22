@@ -29,7 +29,7 @@ Es obvio que $\pi$ no es ``un error'' en el sentido de ser factualmente incorrec
 Como el diámetro de una circunferencia es el doble que su radio, este número es igual a $2\pi$. Al igual que $\pi$, es trascendente y por tanto irracional, y (como veremos en la sección~\ref{sec:the_number_tau}) su uso en matemáticas está igualmente extendido.
 
 \begin{figure}
-\image{images/figures/Reuleaux_triangle_roll.png}
+\image{images/figures/Reuleaux_triangle_roll.pdf}
 \caption{Una de las infinitas formas no circulares con anchura constante.\label{fig:constant_width}}
 \end{figure}
 
@@ -144,7 +144,7 @@ Esto sugiere la siguiente definición de  \emph{medida de ángulos en radianes}:
 \end{equation}
 Esta definición posee la propiedad requerida de ser invariante con respecto al radio, y dado que tanto  $s$ como $r$ tienen unidades de longitud, los radianes son  \href{https://es.wikipedia.org/wiki/Magnitud_adimensional}{\emph{adimensionales}} por construcción. Medir ángulos en radianes produce fórmulas concisas y elegantes en matemáticas; por ejemplo, la fórmula habitual para la derivada de  $\sen\theta$ es cierta solamente cuando  $\theta$ se expresa en radianes:
 \[
-  \frac{d}{d\theta}\mbox{sen}\,\theta = \cos\theta. \qquad\mbox{(cierto solo cuando $\theta$ se expresa en radianes)}
+  \frac{d}{d\theta}\mbox{sen}\,\theta = \cos\theta. \qquad\mbox{(solo en radianes)}
 \]
 Como es lógico, los ángulos especiales de la figura~\ref{fig:degree_angles} se pueden expresar en radianes, y cuando aprendiste trigonometría en secundaria probablemente tuviste que memorizar los valores especiales que se muestran en la figura~\ref{fig:pi_angles} (denomino a esta unidad de medida $\pi$-radián para enfatizar que están escritos en términos de $\pi$).
 
@@ -374,7 +374,11 @@ La energía potencial del muelle es por tanto igual al trabajo realizado por la 
 La constante de proporcionalidad es la masa~$m$:
 \[ F = m a. \]
 La energía del movimiento, o \emph{energía cinética}, es igual al total del trabajo invertido en acelerar la masa hasta la velocidad~$v$:
-\[ K = \int F\,dx = \int ma\,dx = \int m\frac{dv}{dt}\,dx = \int m\frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
+\[
+\begin{split}
+K = \int F\,dx = \int ma\,dx & = \int m\frac{dv}{dt}\,dx \\ & = \int m\frac{dx}{dt}\,dv \\ & = \int_0^v mv\,dv \\ & = \textstyle{\frac{1}{2}} mv^2.
+\end{split}
+\]
 
   \subsection{Un presentimiento} % (fold)
   \label{sec:a_sense_of_foreboding}
@@ -606,8 +610,8 @@ En las fórmulas de las áreas superficiales y los volúmenes de $n$ dimensiones
 \begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & \text{si } n \text{ es par}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{si } n \text{ es impar}.
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & n \text{ par}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impar}.
 \end{cases}
 \end{equation}
 
@@ -615,8 +619,8 @@ Integrando respecto a $r$ tenemos
 \begin{equation}
 \label{eq:volume_mathworld}
 V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{si } n \text{ es par}; \\ \\
-\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{si } n \text{ es impar}.
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & n \text{ par}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & n \text{ impar}.
 \end{cases}
 \end{equation}
 
@@ -624,8 +628,8 @@ Examinemos la ecuación ~\eqref{eq:volume_mathworld} en detalle. Nótese en prim
 \begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
-n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{si } n \text{ es par}; \\ \\
-n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{si } n \text{ es impar}.
+n(n-2)\ldots6\cdot4\cdot2 & n \text{ par}; \\ \\
+n(n-2)\ldots5\cdot3\cdot1 & n \text{ impar}.
 \end{cases}
 \end{equation}
 (por definición, $0!! = 1!! = 1$). Nótese que la ecuación~\eqref{eq:double_factorial} se divide naturalmente entre casos pares e impares, lo que torna en aún más extraña la decisión de MathWorld de utilizarla solo en el caso impar.
@@ -641,8 +645,8 @@ y aquí encontramos de nuevo a nuestro viejo amigo~$2\pi$.
 Veamos ahora el caso par de la ecuación~\eqref{eq:volume_mathworld}. Hemos señalado más arriba lo raro que resulta usar la factorial ordinaria en el caso par pero la doble factorial en el impar. De hecho, como la doble factorial ya está definida a trozos, si unificamos las fórmulas utilizando $n!!$ en ambos casos podemos sacarla como factor común:
 \[
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots & \text{si } n \text{ es par}; \\ \\
- \ldots & \text{si } n \text{ es impar}.
+\ldots & n \text{ par}; \\ \\
+ \ldots & n \text{ impar}.
  \end{cases}
 \]
 Veamos, ¿hay alguna conexión entre la función factorial y la doble factorial? Sí: cuando $n$ es par, se relacionan mediante la siguiente identidad:
@@ -657,44 +661,44 @@ Uniendo estos resultados, vemos que la ecuación~\eqref{eq:volume_mathworld} se 
 \begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{si } n \text{ es par}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{si } n \text{ es impar}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & n \text{ par}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & n \text{ impar}
  \end{cases}
 \end{equation}
 y la ecuación~\eqref{eq:surface_area_mathworld} se puede reescribir como
 \begin{equation}
 \label{eq:surface_area_2pi}
 S_n(r) = \begin{cases}
-\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{si } n \text{ es par}; \\ \\
-\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ es impar.}
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ par}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impar}.
 \end{cases}
 \end{equation}
 
 Sustituyendo $\tau=2\pi$ en la ecuación~\eqref{eq:surface_area_2pi} obtenemos
 \[
 S_n(r) = \begin{cases}
-\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{si } n \text{ es par}; \\ \\
-\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{si } n \text{ es impar.}
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ par}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impar}.
 \end{cases} \]
 Para unificar aún más estas fórmulas, podemos utilizar la \emph{función suelo} $\lfloor x \rfloor$, que es simplemente el mayor entero menor o igual que $x$ (es equivalente a eliminar la parte fraccionaria, de manera que, por ejemplo, $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). Esto nos da
 \[ S_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{si } n \text{ es par}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{si } n \text{ es impar},
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ par}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ impar},
  \end{cases} \]
 lo que nos permite escribir la fórmula de la siguiente manera:
 \begin{equation}
 \label{eq:surface_area_tau}
 S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
-1 & \text{si } n \text{ es par}; \\ \\
-2 & \text{si } n \text{ es impar}.
+1 & n \text{ par}; \\ \\
+2 & n \text{ impar}.
 \end{cases}
 \end{equation}
 Por último, integrando la ecuación~\eqref{eq:surface_area_tau} respecto a $r$ llegamos a la expresión:
 \begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
-1 & \text{si } n \text{ es par}; \\ \\
-2 & \text{si } n \text{ es impar}.
+1 & n \text{ par}; \\ \\
+2 & n \text{ impar}.
 \end{cases}
 \end{equation}
 
@@ -718,30 +722,33 @@ La mayor ventaja de $\lambda$ es que unifica completamente los casos par e impar
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} =
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
- 2^n & \text{si } n \text{ es par}; \\ \\
- 2^{n-1} & \text{si } n \text{ es impar}.
+ 2^n & n \text{ par}; \\ \\
+ 2^{n-1} & n \text{ impar}.
  \end{cases}
 \]
 Esto significa que podemos reescribir el producto
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
-1 & \text{si } n \text{ es par}; \\ \\
-2 & \text{si } n \text{ es impar}.
+1 & n \text{ par}; \\ \\
+2 & n \text{ impar}.
 \end{cases}
 \]
 como
 \begin{equation}
 \label{eq:prefactor}
+\begin{split}
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
- 2^n & \text{si } n \text{ es par}; \\ \\
- 2^{n-1} & \text{si } n \text{ es impar}.
+ 2^n & n \text{ even}; \\ \\
+ 2^{n-1} & n \text{ odd}.
  \end{cases}
-  \times \begin{cases}
- 1 & \text{si } n \text{ es par}; \\ \\
- 2 & \text{si } n \text{ es impar}.
+ & \times
+\begin{cases}
+ 1 & n \text{ even}; \\ \\
+ 2 & n \text{ odd}.
  \end{cases}
- = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
+\\ & = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
+\end{split}
 \end{equation}
 lo que elimina la dependencia explícita de la \href{https://es.wikipedia.org/wiki/Números_pares_e_impares}{paridad}. Aplicando la ecuación~\eqref{eq:prefactor} a la ecuación~\eqref{eq:surface_area_tau} y a la ecuación~\eqref{eq:volume_tau}, tenemos que
 \begin{equation}
@@ -772,13 +779,14 @@ Como ilustra la ecuación~\eqref{eq:volume_lambda}, la fórmula del volumen se d
 Podemos encontrar la respuesta a esta pregunta hallando las \emph{relaciones de recurrencia} entre dimensiones\footnote{El artículo ``\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The volume of the unit ball in \emph{n} dimensions}'' de Phanuel A. Mariano contiene una derivación alternativa de estas importantes relaciones de recurrencia.}. En particular, dividamos el volumen de una esfera de $n$ dimensiones por el volumen de una esfera de $(n-2)$ dimensiones:
 \begin{equation}
 \label{eq:volume_recurrence}
-\frac{V_n(r)}{V_{n-2}(r)} =
+\begin{split}
+\frac{V_n(r)}{V_{n-2}(r)} & =
 \frac{2^n}{2^{n-2}}
 \frac{\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{\lambda^{\left\lfloor \frac{n-2}{2} \right\rfloor}}
 \frac{(n-2)!!}{n!!}
 \frac{r^{n}}{r^{n-2}}
-=
-\frac{2^2\lambda}{n}\,r^2.
+\\ & = \frac{2^2\lambda}{n}\,r^2.
+\end{split}
 \end{equation}
 Vemos en la ecuación~\eqref{eq:volume_recurrence} que podemos obtener el volumen de una $n$-esfera simplemente multiplicando la fórmula para una $(n-2)$-esfera por $r^2$ (un factor que exige el análisis dimensional), dividiendo por $n$ y multiplicando por la ``constante de recurrencia'' $2^2\lambda$.
 
@@ -796,15 +804,20 @@ De manera similar, para el área superficial tenemos que
 con la misma constante de recurrencia $2^2\lambda$.
 
 Así, tanto en la ecuación~\eqref{eq:volume_recurrence} como en la ecuación~\eqref{eq:surface_area_recurrence}, la constante que relaciona las distintas dimensiones no es la propia $\lambda$ sino la expresión $2^2\lambda$. Comparando con la ecuación~\eqref{eq:tau_lambda}, ¡vemos que esto no es otra cosa que $\tau$! De hecho, una \href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{derivación alternativa} de la recurrencia del volumen mediante cálculo directo (que utiliza $R$ donde hemos usado $r$) concluye con la integral
-\begin{align}
+\begin{equation}
 \label{eq:integral_recurrence}
-V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \nonumber \\
-&= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \\
-&= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
-\end{align}
+\begin{split}
+V_n(R) & = \int_0^\tau \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \\
+       & = \tau V_{n-2}(R) \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{0}^{R} \\
+       & = \frac{\tau R^2}{n} V_{n-2}(R),
+\end{split}
+\end{equation}
 evidenciando así que la identificación de  $\tau$ con la ``constante de recurrencia'' no es casualidad; la constante de recurrencia y la constante de la circunferencia son en realidad lo mismo:
 \[
-\tau = \mbox{constante de la circunferencia} = \mbox{constante de recurrencia} = 2^2\lambda.
+\begin{split}
+\tau & = \mbox{constante de la circunferencia} \\
+     & = \mbox{constante de recurrencia} = 2^2\lambda.
+\end{split}
 \]
 En consecuencia, es $\tau$, no $\lambda$, quien proporciona el hilo común que enlaza las dos familias de soluciones pares e impares, como ha ilustrado Joseph Lindenberg en \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (figura~\ref{fig:Nspheres})\footnote{En realidad \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} expresa la recurrencia en términos de $2\pi$; la versión que muestra la figura~\ref{fig:Nspheres} fue creada a petición mía. Como siempre, estoy enormemente agradecido a Joseph Lindenberg por su constante generosidad y apoyo.}.
 
