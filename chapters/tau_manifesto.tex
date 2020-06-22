@@ -175,7 +175,10 @@ Nótese cuán naturalmente se desprende $\tau$ de este análisis. Si eres una pe
 
 Aunque hay muchos otros argumentos a favor de $\tau$, puede que la figura~\ref{fig:tau_angles} sea el más impactante. En la figura~\ref{fig:tau_angles} vemos también la genialidad de la identificación que hizo Bob Palais de la constante de la circunferencia como ``\href{https://en.wikipedia.org/wiki/Turn_(geometry)}{una vuelta}'': $\tau$ es la medida de ángulo en radianes para una \emph{vuelta} de circunferencia. Es más: nótese que con $\tau$ \emph{no hay nada que memorizar}: la duodécima parte de una vuelta es $\tau/12$, la octava parte de una vuelta es $\tau/8$, y así sucesivamente. Utilizar $\tau$ nos da lo mejor de ambos mundos, combinando claridad conceptual con todos los beneficios específicos de los radianes; el significado abstracto de, por ejemplo, $\tau/12$ es obvio, pero también es simplemente un número:
 \[
-  \mbox{duodécima parte de una vuelta} = \frac{\tau}{12} \approx \frac{6.283185}{12} = 0.5235988.
+\begin{split}
+\mbox{duodécima parte de una vuelta} = \frac{\tau}{12} & \approx \frac{6.283185}{12} \\
+                                                       & = 0.5235988.
+\end{split}
 \]
 Por último, si comparamos la figura~\ref{fig:pi_angles} con la figura~\ref{fig:tau_angles}, vemos de dónde proceden esos engorrosos factores de $2\pi$: una vuelta de circunferencia es $1\tau$, pero $2\pi$. Numéricamente son iguales, pero conceptualmente son bien distintos.
 
@@ -264,11 +267,14 @@ Como en el caso de la medición de ángulos en radianes, vemos lo natural que re
 Evidentemente, la forma tradicional de la ecuación de Euler se escribe en términos de $\pi$ en lugar de $\tau$. Para obtenerla, comenzamos por evaluar la fórmula de Euler en $\theta = \pi$, lo que produce
 \begin{equation}
 \label{eq:eulers_identity_pi}
-e^{i\pi} = -1. \qquad\mbox{Identidad de Euler (versión con $\pi$)}
+e^{i\pi} = -1. \qquad\mbox{Identidad de Euler (con $\pi$)}
 \end{equation}
 Pero ese signo menos es tan feo que la fórmula casi siempre se reordena inmediatamente, produciendo la siguiente ``hermosa'' ecuación:
-\[ e^{i\pi} + 1 = 0. \qquad\mbox{Identidad de Euler (reordenada)} \]
-Al llegar a este punto, habitualmente quien está explicando efectúa alguna afirmación grandilocuente sobre cómo la identidad de Euler relaciona $0$, $1$, $e$, $i$ y $\pi$, en ocasiones llamados los ``cinco números más importantes de las matemáticas''. Es impresionante la cantidad de gente que se queja de que la identidad de Euler con $\tau$ solo relaciona \emph{cuatro} de estos cinco. De acuerdo:
+\begin{equation}
+\label{eq:eulers_pi_rearranged}
+e^{i\pi} + 1 = 0. \qquad\mbox{(reordenada)}
+\end{equation}
+Al llegar a este punto, habitualmente quien está explicando efectúa alguna afirmación grandilocuente sobre cómo la ecuación~\eqref{eq:eulers_pi_rearranged} identidad de Euler relaciona $0$, $1$, $e$, $i$ y $\pi$, en ocasiones llamados los ``cinco números más importantes de las matemáticas''. Es impresionante la cantidad de gente que se queja de que la identidad de Euler con $\tau$ solo relaciona \emph{cuatro} de estos cinco. De acuerdo:
 \[ e^{i\tau} = 1 + 0. \]
 Esta fórmula, \emph{sin} reordenar, relaciona ciertamente los cinco números más importantes de las matemáticas: $0$, $1$, $e$, $i$ y $\tau$.
 
@@ -719,12 +725,14 @@ donde el factor de $2^2$ proviene de los $2^2$ arcos circulares congruentes (uno
 
 La mayor ventaja de $\lambda$ es que unifica completamente los casos par e impar en las ecuaciones~\eqref{eq:surface_area_tau} y~\eqref{eq:volume_tau}, cada una de las cuales tiene un factor de $\tau^{\left\lfloor \frac{n}{2} \right\rfloor}$. Efectuando la sustitución de la ecuación~\eqref{eq:tau_lambda} obtenemos
 \[
-\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} =
-\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
+\begin{split}
+\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} & = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
+& = \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
  2^n & n \text{ par}; \\ \\
  2^{n-1} & n \text{ impar}.
  \end{cases}
+ \end{split}
 \]
 Esto significa que podemos reescribir el producto
 \[
@@ -952,7 +960,10 @@ Y aún así, $\tau$ está repleto de posibilidades. El $\tau$ismo nos enseña: n
 
 En \emph{El Manifiesto Tau} hemos expuesto que la elección natural para la constante de la circunferencia es la razón no entre su longitud y su diámetro, sino entre su longitud y su radio. Este número necesita un nombre, y espero que te unas a mí e llamarlo~$\tau$:
 \[
-  \mbox{Constante de la circunferencia} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
+\begin{split}
+\mbox{Constante de la circunferencia} = \tau & \equiv \frac{C}{r} \\
+                                             & = 6.283185307179586\ldots
+\end{split}
 \]
 Su uso es natural, los motivos para hacerlo están claros y las consecuencias son profundas. Además viene con un diagrama muy guay (figura~\ref{fig:tauism}). En la figura~\ref{fig:tauism} vemos un movimiento a través del \emph{yang} (``luz, blanco, movimiento ascendente'') hasta $\tau/2$ y una vuelta a través del \emph{yin} (``oscuro, negro, movimiento descendente'') hasta llegar de nuevo a $\tau$\footnote{Las interpretaciones del yin y el yang aquí citadas provienen de \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} de Aaron Hoopes.}. Utilizar $\pi$ en lugar de $\tau$ es como tener el \emph{yang} sin el \emph{yin}.
 
