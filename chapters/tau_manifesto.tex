@@ -105,7 +105,10 @@ en las $n$-ésimas \href{https://es.wikipedia.org/wiki/Raíz_de_la_unidad}{raíc
 \]
 y en los valores de la \href{https://es.wikipedia.org/wiki/Función_zeta_de_Riemann}{función zeta de Riemann} para enteros positivos pares\footnote{Aquí $B_n$ es el $n$-ésimo \href{https://es.wikipedia.org/wiki/Número_de_Bernoulli}{número de Bernoulli}.}:
 \[
-  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n}{2(2n)!}\,(2\pi)^{2n}.\qquad n = 1, 2, 3, \ldots
+\begin{split}
+  \zeta(2n) & = \sum_{k=1}^\infty \frac{1}{k^{2n}} \\
+            & = \frac{|B_{2n}|}{2(2n)!}\,(2\pi)^{2n},\qquad n = 1, 2, 3, \ldots
+\end{split}
 \]
 
 Estas fórmulas no están cuidadosamente elegidas a propósito: abre por cualquier página al azar tu libro favorito de física o matemáticas y compruébalo por ti misma. Hay \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{muchos más ejemplos}, pero en todo caso la conclusión está clara: $2\pi$~tiene algo de peculiar.
@@ -541,8 +544,11 @@ A = \frac{1}{2} n\, \mbox{sen}\,\frac{\tau}{n}.
 En otras palabras, el área de un $n$-ágono tiene de forma natural un factor de $1/2$. De hecho, tomar el límite de la ecuación~\eqref{eq:area_polygon} cuando $n\rightarrow \infty$ (aplicando la \href{http://mathworld.wolfram.com/LHospitalsRule.html}{regla de l'H\^{o}pital}) proporciona el área de un polígono regular unitario con infinitos lados, es decir, una circunferencia unitaria:
 \begin{equation}
 \label{eq:lhopital}
-A = \splim{n\rightarrow\infty} \frac{1}{2} n\, \mbox{sen}\,\frac{\tau}{n}
-= \frac{1}{2} \splim{n\rightarrow\infty} \frac{\mbox{sen}\,\frac{\tau}{n}}{1/n} = \tfrac{1}{2}\tau.
+\begin{split}
+A & = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n} \\
+  & = \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} \\
+  & = \tfrac{1}{2}\tau.
+\end{split}
 \end{equation}
 
 A este respecto, debemos mencionar que El Manifiesto Pi arma mucho revuelo con que $\pi$ es el área de un círculo unitario, de manera que (por ejemplo) el área de un cuarto de círculo (unitario) es $\pi/4$. Esto, se afirma, arguye a favor de $\pi$ tanto como la medición de ángulos en radianes lo hace por $\tau$. Por desgracia para este argumento, como se señala en la sección~\ref{sec:circular_area} y como hemos visto de nuevo en la ecuación~\eqref{eq:lhopital}, el factor de $1/2$ surge naturalmente en el contexto del área del círculo. De hecho, la fórmula para el área de un sector circular que subtiende un ángulo~$\theta$ es
